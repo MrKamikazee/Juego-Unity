@@ -31,7 +31,7 @@ public class MoverPersonaje : MonoBehaviour
             personajeTransform.Translate((Vector2.left * Time.deltaTime * speedPersonaje));
         }
 
-        // salto normal y doble salto
+        // salto normal y doble salto poto sexo
         if (Input.GetButtonDown("Jump"))
         {
             if (isGrounded)
