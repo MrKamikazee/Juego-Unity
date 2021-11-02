@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class HudManager : MonoBehaviour
 {
     public GameObject menuPausa;
-    
+    public RespawnPersonaje datosPlayer;
+
     // Boton de jugar en el menu principal
     public void BotonJugar()
     {
@@ -28,11 +29,22 @@ public class HudManager : MonoBehaviour
         menuPausa.SetActive(false);
     }
     
+    // Boton de guardar
+    public void Guardar()
+    {
+        datosPlayer.GuardarDatos();
+    }
+    // Boton de cargar
+    public void Cargar()
+    {
+        datosPlayer.CargarDatos();
+    }
+    
     // Boton para reiniciar nivel
     public void ReniciarNivel()
     {
-        PlayerPrefs.SetFloat("checkPointPositionX", 0);
-        PlayerPrefs.SetFloat("checkPointPositionY", 0);
+        PlayerPrefs.DeleteKey("checkPointPositionX");
+        PlayerPrefs.DeleteKey("checkPointPositionY");
         Time.timeScale = 1;
         menuPausa.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -42,6 +54,7 @@ public class HudManager : MonoBehaviour
     public void IrMenuPrincipal()
     {
         SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1;
     }
 
     // Botones generales
@@ -49,5 +62,6 @@ public class HudManager : MonoBehaviour
     public void SalirJuego()
     {
         Application.Quit();
+        Time.timeScale = 1;
     }
 }
