@@ -8,10 +8,12 @@ public class MoverPersonaje : MonoBehaviour
     public Rigidbody2D rb;
     [Header("Move Mechanics")] public Transform personajeTransform;
     public float speedPersonaje;
-
+    public float dashCooldown;
+    //public GameObject particulasDash;
+    public float dashForce=30;
+    public SpriteRenderer SpriteRenderer;
     [Header("Jump Mechanics")] [Range(1, 20)]
     public float strenghJump;
-
     public float fallMultipler = 2.5f;
     public float lowJumpMultipler = 2;
     public bool isGrounded = true;
@@ -20,15 +22,21 @@ public class MoverPersonaje : MonoBehaviour
 
     private void Update()
     {
+        dashCooldown -= Time.deltaTime;
         //Mueve el personaje de izquierda a derecha
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             personajeTransform.Translate((Vector2.right * Time.deltaTime * speedPersonaje));
+                SpriteRenderer.flipX = false;
         }
-
+        else if (Input.GetKey("c")&& dashCooldown<=2)
+        {
+            Dash();
+        }
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             personajeTransform.Translate((Vector2.left * Time.deltaTime * speedPersonaje));
+            SpriteRenderer.flipX = true;
         }
 
         // salto normal y doble salto poto sexo
@@ -97,5 +105,22 @@ public class MoverPersonaje : MonoBehaviour
         {
             transform.parent = null;
         }
+    }
+
+    public void Dash()
+    {
+        //GameObject dashObject;
+        //dashObject = Instantiate();
+        if (SpriteRenderer.flipX==true)
+        {
+            rb.AddForce(Vector2.left * dashForce,ForceMode2D.Impulse);
+        }
+        else
+        {
+            rb.AddForce(Vector2.right * dashForce,ForceMode2D.Impulse);
+        }
+
+        dashCooldown = 2;
+       // Destroy(dashObject,1);
     }
 }

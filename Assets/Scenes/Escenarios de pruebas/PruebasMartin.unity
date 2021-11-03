@@ -412,6 +412,9 @@ MonoBehaviour:
   rb: {fileID: 595135451}
   personajeTransform: {fileID: 595135454}
   speedPersonaje: 7
+  dashCooldown: 2
+  dashForce: 1
+  SpriteRenderer: {fileID: 595135453}
   strenghJump: 8
   fallMultipler: 2.5
   lowJumpMultipler: 2
