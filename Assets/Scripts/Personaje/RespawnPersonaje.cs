@@ -8,7 +8,7 @@ public class RespawnPersonaje : MonoBehaviour
 {
     private float checkPointPositionX, checkPointPositionY, posX, posY;
     public GameObject[] vida;
-    private int life;
+    public int life;
     private bool continuarLVL = true;
 
     private void Start()
@@ -55,7 +55,7 @@ public class RespawnPersonaje : MonoBehaviour
         ControladorVida();
     }
 
-    private void ControladorVida()
+    public void ControladorVida()
     {
         
         if(life < 1)
