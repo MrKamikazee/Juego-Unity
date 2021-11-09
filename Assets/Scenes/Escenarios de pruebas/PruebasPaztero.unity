@@ -880,6 +880,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &525828822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3691781709941782930, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+  m_PrefabInstance: {fileID: 1209699135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &681109673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1473,6 +1478,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &968789465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3691781710076707168, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+  m_PrefabInstance: {fileID: 1209699135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1209699135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1486,7 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3691781709222276364, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3691781709222276368, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
       propertyPath: m_Pivot.x
@@ -1926,6 +1936,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1463892708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3691781709857063897, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+  m_PrefabInstance: {fileID: 1209699135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1541248225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,6 +2220,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914316367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3691781710125740090, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+  m_PrefabInstance: {fileID: 1209699135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1926393853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,10 +2508,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 968789465}
+  - {fileID: 1914316367}
+  - {fileID: 525828822}
+  - {fileID: 1463892708}
   life: 0
 --- !u!114 &2068178647
 MonoBehaviour:
