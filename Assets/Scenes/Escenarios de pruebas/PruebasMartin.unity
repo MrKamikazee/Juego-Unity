@@ -397,6 +397,7 @@ MonoBehaviour:
   - {fileID: 1449554955}
   - {fileID: 853204851}
   - {fileID: 96055502}
+  life: 0
 --- !u!114 &595135450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -695,6 +696,10 @@ PrefabInstance:
       propertyPath: GuardarCargar
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5736920926652752517, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 595135448}
     - target: {fileID: 5736920926652752517, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
       propertyPath: datosPlayer
       value: 

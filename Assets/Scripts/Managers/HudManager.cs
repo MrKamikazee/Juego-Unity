@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class HudManager : MonoBehaviour
 {
-    public GameObject menuPausa;
+    public GameObject menuPausa, player;
     public RespawnPersonaje datosPlayer;
     private bool permitirEscape = true;
 
@@ -58,7 +58,9 @@ public class HudManager : MonoBehaviour
         PlayerPrefs.DeleteKey("checkPointPositionY");
         Time.timeScale = 1;
         menuPausa.SetActive(false);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        player.transform.position = new Vector2(0, 0);
+        datosPlayer.life = 5;
+        datosPlayer.ControladorVida();
     }
 
     // Boton para ir al menu principal
