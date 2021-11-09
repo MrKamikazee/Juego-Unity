@@ -9,7 +9,7 @@ public class MoverPersonaje : MonoBehaviour
     [Header("Move Mechanics")] public Transform personajeTransform;
     public float speedPersonaje;
     public float dashCooldown;
-    //public GameObject particulasDash;
+    //public GameObject particulasDash; PARTICULAS DEL DASH
     public float dashForce=30;
     public SpriteRenderer SpriteRenderer;
     [Header("Jump Mechanics")] [Range(1, 20)]
@@ -19,12 +19,18 @@ public class MoverPersonaje : MonoBehaviour
     public bool isGrounded = true;
     public float doubleJumpSpeed = 2.5f;
     public bool canDoubleJump;
+    public bool tocandoPared;
+    public bool deslizarPared;
+    public float velocidadDeslizarPared = 0.80f;
+    public bool tocandoParedIzq;
+    public bool tocandoParedDer;
+    public GameObject.
 
     private void Update()
     {
         dashCooldown -= Time.deltaTime;
         //Mueve el personaje de izquierda a derecha
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D) && tocandoParedDer==false)
         {
             personajeTransform.Translate((Vector2.right * Time.deltaTime * speedPersonaje));
                 SpriteRenderer.flipX = false;
@@ -33,14 +39,14 @@ public class MoverPersonaje : MonoBehaviour
         {
             Dash();
         }
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)&& tocandoParedIzq==false)
         {
             personajeTransform.Translate((Vector2.left * Time.deltaTime * speedPersonaje));
             SpriteRenderer.flipX = true;
         }
 
         // salto normal y doble salto poto sexo
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump")&& deslizarPared==false)
         {
             if (isGrounded)
             {
@@ -73,6 +79,21 @@ public class MoverPersonaje : MonoBehaviour
         else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultipler - 1) * Time.deltaTime;
+        }
+
+        if (tocandoPared==true && isGrounded==false)
+        {
+            deslizarPared = true;
+        }
+        else
+        {
+            deslizarPared = false;
+        }
+
+        if (deslizarPared)
+        {
+            // PONER ANIMACION DE DESLIZAR
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -velocidadDeslizarPared, float.MaxValue));
         }
     }
 
@@ -122,5 +143,27 @@ public class MoverPersonaje : MonoBehaviour
 
         dashCooldown = 2;
        // Destroy(dashObject,1);
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (Collision.gameObject.CompareTag("ParedIzq"))
+        {
+            tocandoPared = true;
+            tocandoParedDer = true;
+        }
+
+        if (Collision.gameObject.CompareTag("ParedDer"))
+        {
+            tocandoPared = true;
+            tocandoParedIzq = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        tocandoPared = false;
+        tocandoParedDer = false;
+        tocandoParedIzq = false;
     }
 }
