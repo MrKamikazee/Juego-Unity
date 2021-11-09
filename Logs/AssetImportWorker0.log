@@ -491,3 +491,80 @@ System memory in use after: 117.3 MB.
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3126.
 Total: 4.273200 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.216800 ms MarkObjects: 3.544200 ms  DeleteObjects: 0.097900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.489789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2612 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3128.
+Total: 125.482600 ms (FindLiveObjects: 20.373600 ms CreateObjectMapping: 0.291600 ms MarkObjects: 104.620500 ms  DeleteObjects: 0.195000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14318.681644 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(85c59ed0618cfcf499406f6da20fad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(85c59ed0618cfcf499406f6da20fad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1d074e084f9387206a688c34812ab9') in 0.415311 seconds
+  Import took 0.457391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(b63c7c1b62920c840bd3281180fa8fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(b63c7c1b62920c840bd3281180fa8fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e2ffec4b378c7eb07ddb3cabba7dcc') in 0.021413 seconds
+  Import took 0.028619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Prefabs/GameManager.prefab
+  artifactKey: Guid(839579d5734b4ce448f9687c44af9ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameManager.prefab using Guid(839579d5734b4ce448f9687c44af9ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c46f683da9ebc95b058482a98c1bacd') in 0.029255 seconds
+  Import took 0.073110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.578737 seconds.
+  path: Assets/Scripts/Managers/HudManager.cs
+  artifactKey: Guid(acfb46398878a8943bd7366f04a8deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/HudManager.cs using Guid(acfb46398878a8943bd7366f04a8deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e50adb407a95f676afaa378b1b86df') in 0.012957 seconds
+  Import took 0.043130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.366410 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(85c59ed0618cfcf499406f6da20fad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(85c59ed0618cfcf499406f6da20fad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aee0add3efeb6e8e11544b78b1a22fc') in 0.070705 seconds
+  Import took 0.116851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.943892 seconds.
+  path: Assets/Scenes/Nivel 1/Nivel 1.unity
+  artifactKey: Guid(4fd55f710578bf6489d25e1c7bef1d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel 1/Nivel 1.unity using Guid(4fd55f710578bf6489d25e1c7bef1d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775a9c8e11e8e422e8cdcb3fd5eb1ba0') in 0.026651 seconds
+  Import took 0.113918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.411561 seconds.
+  path: Assets/Sprites/Boton Menu.psd
+  artifactKey: Guid(3e9989dcd92ce7c42946e30f337b37f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Boton Menu.psd using Guid(3e9989dcd92ce7c42946e30f337b37f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d43f616a489d2fc2ebc631ddf7479a2') in 0.426520 seconds
+  Import took 0.452903 seconds .
+
