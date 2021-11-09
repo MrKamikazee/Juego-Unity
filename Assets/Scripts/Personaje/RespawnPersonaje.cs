@@ -82,4 +82,16 @@ public class RespawnPersonaje : MonoBehaviour
             }
         }
     }
+
+    public void FinCaida()
+    {
+        if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
+        {
+            transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
+        }
+        else
+        {
+            transform.position = new Vector2(0, 0);
+        }
+    }
 }
