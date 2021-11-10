@@ -18,13 +18,12 @@ public class MoverPersonaje : MonoBehaviour
     public float lowJumpMultipler = 2;
     public bool isGrounded = true;
     public float doubleJumpSpeed = 2.5f;
-    public bool canDoubleJump;
-    public bool tocandoPared;
-    public bool deslizarPared;
+    public bool canDoubleJump; 
+    bool tocandoPared=false;
+    bool deslizarPared;
     public float velocidadDeslizarPared = 0.80f;
-    public bool tocandoParedIzq;
-    public bool tocandoParedDer;
-    //public GameObject;
+    bool tocandoParedIzq;
+    bool tocandoParedDer;
 
     private void Update()
     {
@@ -80,6 +79,23 @@ public class MoverPersonaje : MonoBehaviour
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultipler - 1) * Time.deltaTime;
         }
+
+        if (tocandoPared==true)
+        {
+            deslizarPared = true;
+        }
+        else
+        {
+            deslizarPared = false;
+        }
+
+        if (deslizarPared)
+        {
+            //Animator.Play("wall"); ANIMACION
+            rb.velocity = new Vector2(rb.velocity.x,
+                Mathf.Clamp(rb.velocity.y, -velocidadDeslizarPared, float.MaxValue));
+        }
+
     }
 
     private void Jump()
@@ -128,5 +144,27 @@ public class MoverPersonaje : MonoBehaviour
 
         dashCooldown = 2;
        // Destroy(dashObject,1);
+    }
+
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.transform.CompareTag("ParedDer"))
+        {
+            tocandoPared = true;
+            tocandoParedDer = true;
+        }
+
+        if (other.transform.CompareTag("ParedIzq"))
+        {
+            tocandoPared = true;
+            tocandoParedIzq = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        tocandoPared = false;
+        tocandoParedDer = false;
+        tocandoParedIzq = false;
     }
 }

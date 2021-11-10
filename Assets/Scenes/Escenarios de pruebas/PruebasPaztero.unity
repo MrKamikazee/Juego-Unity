@@ -584,11 +584,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231585353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6000004, y: 0.20809996, z: 0}
+  m_LocalPosition: {x: -4.8203278, y: 0.6535649, z: 4.5119176}
   m_LocalScale: {x: 1.2783116, y: 5.0086083, z: 1}
   m_Children: []
-  m_Father: {fileID: 330825484}
-  m_RootOrder: 0
+  m_Father: {fileID: 587949854}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &231585356
 BoxCollider2D:
@@ -848,7 +848,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &330825483
+--- !u!1 &525828822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3691781709941782930, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+  m_PrefabInstance: {fileID: 1209699135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &587949853
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -856,7 +861,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 330825484}
+  - component: {fileID: 587949854}
   m_Layer: 0
   m_Name: Paredes
   m_TagString: Untagged
@@ -864,27 +869,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &330825484
+--- !u!4 &587949854
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330825483}
+  m_GameObject: {fileID: 587949853}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.52, y: 0.49, z: 0}
+  m_LocalPosition: {x: 28.740328, y: 0.044535123, z: -4.5119176}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 231585355}
   - {fileID: 1435075663}
+  - {fileID: 231585355}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &525828822 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3691781709941782930, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
-  m_PrefabInstance: {fileID: 1209699135}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &681109673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,7 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3691781709222276364, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3691781709222276368, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
       propertyPath: m_Pivot.x
@@ -1799,7 +1799,7 @@ Transform:
   m_LocalScale: {x: 0.99989533, y: 11.467209, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1433255401
 BoxCollider2D:
@@ -1904,11 +1904,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435075661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.6399994, y: 0.20810008, z: 0}
+  m_LocalPosition: {x: 1.419672, y: 0.653565, z: 4.5119176}
   m_LocalScale: {x: 1.2783116, y: 5.0086083, z: 1}
   m_Children: []
-  m_Father: {fileID: 330825484}
-  m_RootOrder: 1
+  m_Father: {fileID: 587949854}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1435075664
 BoxCollider2D:
@@ -2022,7 +2022,7 @@ Transform:
   m_LocalScale: {x: 1.2783116, y: 5.0086083, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1541248228
 BoxCollider2D:
@@ -2218,7 +2218,7 @@ Transform:
   - {fileID: 180277944}
   - {fileID: 180270642}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1914316367 stripped
 GameObject:
@@ -2306,7 +2306,7 @@ Transform:
   m_LocalScale: {x: 1.389658, y: 11.689537, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1926393856
 BoxCollider2D:
@@ -2534,14 +2534,10 @@ MonoBehaviour:
   strenghJump: 8
   fallMultipler: 2.5
   lowJumpMultipler: 2
-  isGrounded: 1
+  isGrounded: 0
   doubleJumpSpeed: 2.5
   canDoubleJump: 0
-  tocandoPared: 0
-  deslizarPared: 0
   velocidadDeslizarPared: 0.8
-  tocandoParedIzq: 0
-  tocandoParedDer: 0
 --- !u!50 &2068178648
 Rigidbody2D:
   serializedVersion: 4
