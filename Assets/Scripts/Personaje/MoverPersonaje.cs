@@ -21,6 +21,7 @@ public class MoverPersonaje : MonoBehaviour
     public float velocidadDeslizarPared = 0.80f;
     bool tocandoParedIzq;
     bool tocandoParedDer;
+    public bool isTouchingWall;
 
     private void Update()
     {
@@ -60,6 +61,11 @@ public class MoverPersonaje : MonoBehaviour
                         Jump();
                     }
                 }
+            }
+
+            if (isTouchingWall)
+            {
+                Jump();
             }
         }
 
@@ -111,6 +117,11 @@ public class MoverPersonaje : MonoBehaviour
         {
             transform.parent = other.transform;
         }
+
+        if (other.CompareTag("ParedIzq") || other.CompareTag("ParedDer") )
+        {
+            isTouchingWall = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -123,6 +134,11 @@ public class MoverPersonaje : MonoBehaviour
         if (other.CompareTag("PlataformaMovil"))
         {
             transform.parent = null;
+        }
+
+        if (other.CompareTag("ParedDer")  || other.CompareTag("ParedIzq"))
+        {
+            isTouchingWall = false;
         }
     }
 
