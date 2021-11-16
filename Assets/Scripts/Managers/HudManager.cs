@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class HudManager : MonoBehaviour
 {
-    public GameObject menuPausa, player;
+    public GameObject menuPausa, player, menuOpciones, canvasMenuPrincipal;
     public RespawnPersonaje datosPlayer;
     private bool permitirEscape = true;
 
@@ -15,6 +15,12 @@ public class HudManager : MonoBehaviour
     public void BotonJugar()
     {
         SceneManager.LoadScene("Nivel 1");
+    }
+
+    public void Opciones()
+    {
+        canvasMenuPrincipal.SetActive(false);
+        menuOpciones.SetActive(true);
     }
 
     // Botones en el menu de pausa
@@ -38,17 +44,13 @@ public class HudManager : MonoBehaviour
     {
         Time.timeScale = 1;
         menuPausa.SetActive(false);
+        menuOpciones.SetActive(false);
     }
     
     // Boton de guardar
     public void Guardar()
     {
         datosPlayer.GuardarDatos();
-    }
-    // Boton de cargar
-    public void Cargar()
-    {
-        datosPlayer.CargarDatos();
     }
     
     // Boton para reiniciar nivel
@@ -69,12 +71,18 @@ public class HudManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
     }
-
-    // Botones generales
+    
     // Boton para salir del juego
     public void SalirJuego()
     {
         Application.Quit();
         Time.timeScale = 1;
+    }
+    
+    // Botones generales
+    // Boton de cargar
+    public void Cargar()
+    {
+        datosPlayer.CargarDatos();
     }
 }
