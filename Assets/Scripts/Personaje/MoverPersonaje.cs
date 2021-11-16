@@ -13,12 +13,9 @@ public class MoverPersonaje : MonoBehaviour
     public float dashForce=30;
     public SpriteRenderer SpriteRenderer;
     [Header("Jump Mechanics")] [Range(1, 20)]
-    public float strenghJump;
-    public float fallMultipler = 2.5f;
-    public float lowJumpMultipler = 2;
-    public bool isGrounded = true;
-    public float doubleJumpSpeed = 2.5f;
-    public bool canDoubleJump; 
+    public float strenghJump, fallMultipler = 2.5f, lowJumpMultipler = 2, doubleJumpSpeed = 2.5f;
+    public bool isGrounded = true, canDoubleJump;
+    [Header("Escalar paredes Mechanics")]
     bool tocandoPared=false;
     bool deslizarPared;
     public float velocidadDeslizarPared = 0.80f;
@@ -112,7 +109,7 @@ public class MoverPersonaje : MonoBehaviour
 
         if (other.CompareTag("PlataformaMovil"))
         {
-            transform.parent = other.transform; //Arreglar linea de codigo
+            transform.parent = other.transform;
         }
     }
 
