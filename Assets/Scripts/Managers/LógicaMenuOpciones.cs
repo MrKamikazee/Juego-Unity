@@ -19,18 +19,16 @@ public class LógicaMenuOpciones : MonoBehaviour
     public TMP_Dropdown resolucionesDropDown;
     public Resolution[] resoluciones;
 
+    [Header("Lógica Controles")] 
+    public TMP_Dropdown controlesDropDown;
+    
     private void Start()
     {
         LogicaVolumen();
         LogicaPantallaCompleta();
         RevisarResolutions();
     }
-
-    private void Update()
-    {
-        
-    }
-
+    
     // Toda la lógica del volumen
     public void LogicaVolumen()
     {

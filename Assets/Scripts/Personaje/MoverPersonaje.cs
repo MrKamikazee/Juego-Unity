@@ -5,16 +5,23 @@ using UnityEngine;
 
 public class MoverPersonaje : MonoBehaviour
 {
+    [Header("General Variables")]
     public Rigidbody2D rb;
-    [Header("Move Mechanics")] public Transform personajeTransform;
-    public float speedPersonaje;
+
+    [Header("Move Mechanics")] 
+    public float speed; 
+    public float velX, velY;
+    
+    [Header("Dash Mechanics")]
     public float dashCooldown;
     //public GameObject particulasDash; PARTICULAS DEL DASH
     public float dashForce=30;
     public SpriteRenderer SpriteRenderer;
+    
     [Header("Jump Mechanics")] [Range(1, 20)]
     public float strenghJump, fallMultipler = 2.5f, lowJumpMultipler = 2, doubleJumpSpeed = 2.5f;
     public bool isGrounded = true, canDoubleJump;
+    
     [Header("Escalar paredes Mechanics")]
     bool tocandoPared=false;
     bool deslizarPared;
@@ -23,23 +30,34 @@ public class MoverPersonaje : MonoBehaviour
     bool tocandoParedDer;
     public bool isTouchingWall;
 
-    private void Update()
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    public void FixedUpdate()
+    {
+        
+        velX = Input.GetAxisRaw("Horizontal");
+        velY = rb.velocity.y;
+        rb.velocity = new Vector2(velX * speed, rb.velocity.y);
+
+        if (velX < 0)
+        {
+            transform.localScale = new Vector2(-1, 1);
+        }
+        else
+        {
+            transform.localScale = new Vector2(1, 1);
+        }
+    }
+
+    void Update()
     {
         dashCooldown -= Time.deltaTime;
-        //Mueve el personaje de izquierda a derecha
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            personajeTransform.Translate((Vector2.right * Time.deltaTime * speedPersonaje));
-                SpriteRenderer.flipX = false;
-        }
-        else if (Input.GetKey("c")&& dashCooldown<=2)
+        if (Input.GetKey("c")&& dashCooldown<=2)
         {
             Dash();
-        }
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-        {
-            personajeTransform.Translate((Vector2.left * Time.deltaTime * speedPersonaje));
-            SpriteRenderer.flipX = true;
         }
 
         // salto normal y doble salto poto sexo
