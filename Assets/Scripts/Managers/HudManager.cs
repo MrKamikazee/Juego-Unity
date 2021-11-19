@@ -3,11 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class HudManager : MonoBehaviour
 {
-    public GameObject menuPausa, player, menuOpciones, canvasMenuPrincipal;
+    public GameObject menuPausa, player, menuOpciones, menuInicio;
     public RespawnPersonaje datosPlayer;
     private bool permitirEscape = true;
 
@@ -17,10 +16,18 @@ public class HudManager : MonoBehaviour
         SceneManager.LoadScene("Nivel 1");
     }
 
+    // Boton para abrir las opciones
     public void Opciones()
     {
-        canvasMenuPrincipal.SetActive(false);
+        menuInicio.SetActive(false);
         menuOpciones.SetActive(true);
+    }
+
+    // Boton para cerrar las opciones
+    public void VolverOpciones()
+    {
+        menuOpciones.SetActive(false);
+        menuInicio.SetActive(true);
     }
 
     // Botones en el menu de pausa
@@ -30,6 +37,8 @@ public class HudManager : MonoBehaviour
         Time.timeScale = 0;
         menuPausa.SetActive(true);
     }
+    
+    // Boton para quitar el menu de pausa
     private void Update()
     {
         if (Input.GetKey(KeyCode.Escape) && permitirEscape)
@@ -44,7 +53,6 @@ public class HudManager : MonoBehaviour
     {
         Time.timeScale = 1;
         menuPausa.SetActive(false);
-        menuOpciones.SetActive(false);
     }
     
     // Boton de guardar
