@@ -13,6 +13,11 @@ public class HudManager : MonoBehaviour
     // Boton de jugar en el menu principal
     public void BotonJugar()
     {
+        PlayerPrefs.DeleteKey("checkPointPositionX");
+        PlayerPrefs.DeleteKey("checkPointPositionY");
+        PlayerPrefs.DeleteKey("posX");
+        PlayerPrefs.DeleteKey("posY");
+        PlayerPrefs.DeleteKey("vidas");
         SceneManager.LoadScene("Nivel 1");
     }
 
@@ -66,6 +71,9 @@ public class HudManager : MonoBehaviour
     {
         PlayerPrefs.DeleteKey("checkPointPositionX");
         PlayerPrefs.DeleteKey("checkPointPositionY");
+        PlayerPrefs.DeleteKey("posX");
+        PlayerPrefs.DeleteKey("posY");
+        PlayerPrefs.DeleteKey("vidas");
         Time.timeScale = 1;
         menuPausa.SetActive(false);
         player.transform.position = new Vector2(0, 0);

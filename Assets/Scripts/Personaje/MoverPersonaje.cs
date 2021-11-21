@@ -41,15 +41,6 @@ public class MoverPersonaje : MonoBehaviour
         velX = Input.GetAxisRaw("Horizontal");
         velY = rb.velocity.y;
         rb.velocity = new Vector2(velX * speed, rb.velocity.y);
-
-        if (velX < 0)
-        {
-            transform.localScale = new Vector2(-1, 1);
-        }
-        else
-        {
-            transform.localScale = new Vector2(1, 1);
-        }
     }
 
     void Update()
@@ -101,7 +92,7 @@ public class MoverPersonaje : MonoBehaviour
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultipler - 1) * Time.deltaTime;
         }
 
-        if (tocandoPared==true)
+        if (tocandoPared)
         {
             deslizarPared = true;
         }
