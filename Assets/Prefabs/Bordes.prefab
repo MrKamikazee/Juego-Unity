@@ -229,10 +229,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1180210955791061978}
   - component: {fileID: 7008569742792607585}
-  - component: {fileID: 8144122152561606580}
   m_Layer: 0
   m_Name: Borde derecho
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,16 +276,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 47.82709}
   m_EdgeRadius: 0
---- !u!114 &8144122152561606580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5561322132120655469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 865ec54f6503bc746b1c30a20be6ae1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nivel: 0

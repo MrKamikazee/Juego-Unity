@@ -155,7 +155,7 @@ public class MoverPersonaje : MonoBehaviour
     {
         //GameObject dashObject;
         //dashObject = Instantiate();
-        if (SpriteRenderer.flipX==true)
+        if (SpriteRenderer.flipX)
         {
             rb.AddForce(Vector2.left * dashForce,ForceMode2D.Impulse);
         }
