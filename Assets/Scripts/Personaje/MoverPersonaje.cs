@@ -33,13 +33,16 @@ public class MoverPersonaje : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    private void FixedUpdate()
     {
         // Movimiento personaje
         velX = Input.GetAxisRaw("Horizontal");
         velY = rb.velocity.y;
         rb.velocity = new Vector2(velX * speed, rb.velocity.y);
-        
+    }
+
+    void Update()
+    {
         dashCooldown -= Time.deltaTime;
         if (Input.GetKey("c")&& dashCooldown<=2)
         {
