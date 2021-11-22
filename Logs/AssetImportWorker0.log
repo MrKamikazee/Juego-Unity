@@ -117,3 +117,4 @@ Received Import Request.
 Start importing Assets/Scenes/Final Boss.unity using Guid(3913e328a7eccc14ab912137dea41b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15f5e1512c2c7957c8476cb2e8ee733') in 0.056407 seconds
   Import took 0.141287 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
