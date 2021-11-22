@@ -15,11 +15,11 @@ D:/Descargas/U/Taller Diseño 1 - Lathrop, Romina/Jueguito UNITY/Juego-Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62076
+61598
 Successfully changed project path to: D:/Descargas/U/Taller Diseño 1 - Lathrop, Romina/Jueguito UNITY/Juego-Unity
 D:/Descargas/U/Taller Diseño 1 - Lathrop, Romina/Jueguito UNITY/Juego-Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 101.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,39 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010562 seconds.
+Registered in 0.012228 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.114 seconds
+- Completed reload, in  4.944 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.019480 seconds.
+Registered in 0.018856 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.405 seconds
+- Completed reload, in  2.251 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.4 MB.
+System memory in use before: 118.5 MB.
 System memory in use after: 118.6 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3102.
-Total: 3.464000 ms (FindLiveObjects: 0.304100 ms CreateObjectMapping: 0.167300 ms MarkObjects: 2.849400 ms  DeleteObjects: 0.141600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Nivel 1.unity
-  artifactKey: Guid(4fd55f710578bf6489d25e1c7bef1d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel 1.unity using Guid(4fd55f710578bf6489d25e1c7bef1d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba19174724fa0ac92455cd2b587b4bb') in 0.059482 seconds
-  Import took 0.095158 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027345 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.995 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2614 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.2 MB.
-System memory in use after: 114.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3104.
-Total: 4.228700 ms (FindLiveObjects: 0.329500 ms CreateObjectMapping: 0.157300 ms MarkObjects: 3.636000 ms  DeleteObjects: 0.104100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 778.847914 seconds.
-  path: Assets/Scenes/Nivel 2.unity
-  artifactKey: Guid(51d230b29dfc7574192ab79a904a93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel 2.unity using Guid(51d230b29dfc7574192ab79a904a93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9765dcb1db0713821538e984bded6ec') in 0.045950 seconds
-  Import took 0.077888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 134.620003 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dea2868709cfb267c31e5892aa31f9e') in 0.068779 seconds
-  Import took 0.108263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001314 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dea2868709cfb267c31e5892aa31f9e') in 0.010490 seconds
-  Import took 0.020600 seconds .
+Total: 3.688400 ms (FindLiveObjects: 0.462300 ms CreateObjectMapping: 0.199300 ms MarkObjects: 2.871100 ms  DeleteObjects: 0.154000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
