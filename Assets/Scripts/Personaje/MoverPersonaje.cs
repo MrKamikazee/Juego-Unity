@@ -19,32 +19,27 @@ public class MoverPersonaje : MonoBehaviour
     public SpriteRenderer SpriteRenderer;
     
     [Header("Jump Mechanics")] [Range(1, 20)]
-    public float strenghJump, fallMultipler = 2.5f, lowJumpMultipler = 2, doubleJumpSpeed = 2.5f;
-    public bool isGrounded = true, canDoubleJump;
+    public float strenghJump;
+    [Range(1, 20)]
+    public float fallMultipler = 2.5f, lowJumpMultipler = 2, doubleJumpSpeed = 2.5f;
+    public bool isGrounded = true, canDoubleJump = true;
     
     [Header("Escalar paredes Mechanics")]
-    bool tocandoPared=false;
-    bool deslizarPared;
+    bool tocandoPared;
     public float velocidadDeslizarPared = 0.80f;
-    bool tocandoParedIzq;
-    bool tocandoParedDer;
-    public bool isTouchingWall;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    public void FixedUpdate()
+    void Update()
     {
-        
+        // Movimiento personaje
         velX = Input.GetAxisRaw("Horizontal");
         velY = rb.velocity.y;
         rb.velocity = new Vector2(velX * speed, rb.velocity.y);
-    }
-
-    void Update()
-    {
+        
         dashCooldown -= Time.deltaTime;
         if (Input.GetKey("c")&& dashCooldown<=2)
         {
@@ -59,21 +54,10 @@ public class MoverPersonaje : MonoBehaviour
                 canDoubleJump = true;
                 Jump();
             }
-            else
+            if (canDoubleJump && !isGrounded)
             {
-                if (Input.GetButtonDown("Jump"))
-                {
-                    if (canDoubleJump)
-                    {
-                        //rb.velocity = Vector2.up * doubleJumpSpeed;
-                        canDoubleJump = false;
-                        Jump();
-                    }
-                }
-            }
-
-            if (isTouchingWall)
-            {
+                //rb.velocity = Vector2.up * doubleJumpSpeed;
+                canDoubleJump = false;
                 Jump();
             }
         }
@@ -94,15 +78,6 @@ public class MoverPersonaje : MonoBehaviour
 
         if (tocandoPared)
         {
-            deslizarPared = true;
-        }
-        else
-        {
-            deslizarPared = false;
-        }
-
-        if (deslizarPared)
-        {
             //Animator.Play("wall"); ANIMACION
             rb.velocity = new Vector2(rb.velocity.x,
                 Mathf.Clamp(rb.velocity.y, -velocidadDeslizarPared, float.MaxValue));
@@ -120,16 +95,13 @@ public class MoverPersonaje : MonoBehaviour
         if (other.CompareTag("Floor") || other.CompareTag("PlataformaMovil"))
         {
             isGrounded = true;
+            canDoubleJump = true;
+            tocandoPared = true;
         }
 
         if (other.CompareTag("PlataformaMovil"))
         {
             transform.parent = other.transform;
-        }
-
-        if (other.CompareTag("ParedIzq") || other.CompareTag("ParedDer") )
-        {
-            isTouchingWall = true;
         }
     }
 
@@ -138,16 +110,12 @@ public class MoverPersonaje : MonoBehaviour
         if (other.CompareTag("Floor") || other.CompareTag("PlataformaMovil"))
         {
             isGrounded = false;
+            tocandoPared = false;
         }
 
         if (other.CompareTag("PlataformaMovil"))
         {
             transform.parent = null;
-        }
-
-        if (other.CompareTag("ParedDer")  || other.CompareTag("ParedIzq"))
-        {
-            isTouchingWall = false;
         }
     }
 
@@ -166,27 +134,5 @@ public class MoverPersonaje : MonoBehaviour
 
         dashCooldown = 2;
        // Destroy(dashObject,1);
-    }
-
-    private void OnCollisionStay2D(Collision2D other)
-    {
-        if (other.transform.CompareTag("ParedDer"))
-        {
-            tocandoPared = true;
-            tocandoParedDer = true;
-        }
-
-        if (other.transform.CompareTag("ParedIzq"))
-        {
-            tocandoPared = true;
-            tocandoParedIzq = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        tocandoPared = false;
-        tocandoParedDer = false;
-        tocandoParedIzq = false;
     }
 }

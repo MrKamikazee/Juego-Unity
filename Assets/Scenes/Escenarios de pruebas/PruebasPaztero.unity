@@ -2526,18 +2526,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2068178648}
-  personajeTransform: {fileID: 2068178651}
-  speedPersonaje: 7
+  speed: 10
+  velX: 0
+  velY: 0
   dashCooldown: 2
   dashForce: 1
   SpriteRenderer: {fileID: 2068178650}
   strenghJump: 8
   fallMultipler: 2.5
   lowJumpMultipler: 2
-  isGrounded: 0
   doubleJumpSpeed: 2.5
+  isGrounded: 0
   canDoubleJump: 0
   velocidadDeslizarPared: 0.8
+  isTouchingWall: 0
 --- !u!50 &2068178648
 Rigidbody2D:
   serializedVersion: 4
