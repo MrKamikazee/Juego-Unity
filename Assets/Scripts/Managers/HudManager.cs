@@ -21,20 +21,6 @@ public class HudManager : MonoBehaviour
         SceneManager.LoadScene("Nivel 1");
     }
 
-    // Boton para abrir las opciones
-    public void Opciones()
-    {
-        menuInicio.SetActive(false);
-        menuOpciones.SetActive(true);
-    }
-
-    // Boton para cerrar las opciones
-    public void VolverOpciones()
-    {
-        menuOpciones.SetActive(false);
-        menuInicio.SetActive(true);
-    }
-
     // Botones en el menu de pausa
     // Boton de pausa
     public void MenuPausa()
@@ -100,5 +86,19 @@ public class HudManager : MonoBehaviour
     public void Cargar()
     {
         datosPlayer.CargarDatos();
+    }
+    
+    // Boton para abrir las opciones
+    public void Opciones()
+    {
+        menuInicio.SetActive(false);
+        menuOpciones.SetActive(true);
+    }
+    
+    // Boton para cerrar las opciones
+    public void VolverOpciones()
+    {
+        menuOpciones.SetActive(false);
+        menuInicio.SetActive(true);
     }
 }
