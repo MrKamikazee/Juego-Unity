@@ -44,7 +44,7 @@ public class MoverPersonaje : MonoBehaviour
     void Update()
     {
         dashCooldown -= Time.deltaTime;
-        if (Input.GetKey("c")&& dashCooldown<=2)
+        if (Input.GetButtonDown("Fire1") && dashCooldown <= 0)
         {
             Dash();
         }
@@ -128,13 +128,12 @@ public class MoverPersonaje : MonoBehaviour
         //dashObject = Instantiate();
         if (SpriteRenderer.flipX)
         {
-            rb.AddForce(Vector2.left * dashForce,ForceMode2D.Impulse);
+            rb.velocity = Vector2.left * dashForce;
         }
         else
         {
-            rb.AddForce(Vector2.right * dashForce,ForceMode2D.Impulse);
+            rb.velocity = Vector2.right * dashForce;
         }
-
         dashCooldown = 2;
        // Destroy(dashObject,1);
     }
