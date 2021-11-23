@@ -35,6 +35,7 @@ public class MoverPersonaje : MonoBehaviour
         // Movimiento personaje
         velX = Input.GetAxisRaw("Horizontal");
         velY = rb.velocity.y;
+        // Controla si esta tocando alguna pared
         if (tocandoParedDer && velX == 1)
         {
             velX = 0;
@@ -107,7 +108,7 @@ public class MoverPersonaje : MonoBehaviour
         rb.velocity = Vector2.up * strenghJump;
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other) // Controla que es lo que esta tocando el jugador
     {
         if (other.CompareTag("Floor") || other.CompareTag("PlataformaMovil"))
         {
@@ -137,7 +138,7 @@ public class MoverPersonaje : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other) // Controla si dejó de tocar algo el jugador
     {
         if (other.CompareTag("Floor") || other.CompareTag("PlataformaMovil"))
         {
