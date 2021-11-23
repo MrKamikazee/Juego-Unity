@@ -39,9 +39,17 @@ public class MoverPersonaje : MonoBehaviour
         velX = Input.GetAxisRaw("Horizontal");
         velY = rb.velocity.y;
         rb.velocity = new Vector2(velX * speed, rb.velocity.y);
+        if (velX <= 0)
+        {
+            SpriteRenderer.flipX = true;
+        }
+        else
+        {
+            SpriteRenderer.flipX = false;
+        }
         
         dashCooldown -= Time.deltaTime;
-        if (Input.GetKey("c")&& dashCooldown<=4)
+        if (Input.GetButtonDown("Fire1")&& dashCooldown<=0)
         {
             Dash();
         }
