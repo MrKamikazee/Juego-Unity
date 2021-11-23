@@ -7,17 +7,13 @@ public class MoverPersonaje : MonoBehaviour
 {
     [Header("General Variables")]
     public Rigidbody2D rb;
+    public Animator animator;
 
     [Header("Move Mechanics")] 
     public float speed; 
     public float velX, velY;
-    
-    [Header("Dash Mechanics")]
-    public float dashCooldown;
-    //public GameObject particulasDash; PARTICULAS DEL DASH
-    public float dashForce=30;
     public SpriteRenderer SpriteRenderer;
-    
+
     [Header("Jump Mechanics")] [Range(1, 20)]
     public float strenghJump;
     [Range(1, 20)]
@@ -25,7 +21,8 @@ public class MoverPersonaje : MonoBehaviour
     public bool isGrounded = true, canDoubleJump = true;
     
     [Header("Escalar paredes Mechanics")]
-    bool tocandoPared;
+    public bool tocandoPared;
+    private bool tocandoParedDer = false, tocandoParedIzq = false;
     public float velocidadDeslizarPared = 0.80f;
 
     void Start()
@@ -38,17 +35,36 @@ public class MoverPersonaje : MonoBehaviour
         // Movimiento personaje
         velX = Input.GetAxisRaw("Horizontal");
         velY = rb.velocity.y;
+        // Controla si esta tocando alguna pared
+        if (tocandoParedDer && velX == 1)
+        {
+            velX = 0;
+        }
+
+        if (tocandoParedIzq && velX == -1)
+        {
+            velX = 0;
+        }
         rb.velocity = new Vector2(velX * speed, rb.velocity.y);
+        if (velX < 0)
+        {
+            SpriteRenderer.flipX = true;
+            animator.SetBool("correr",true);
+        }
+        else if (velX > 0)
+        {
+            SpriteRenderer.flipX = false;
+            animator.SetBool("correr",true);
+        }
+
+        if (velX == 0)
+        {
+            animator.SetBool("correr",false);
+        }
     }
 
     void Update()
     {
-        dashCooldown -= Time.deltaTime;
-        if (Input.GetKey("c")&& dashCooldown<=2)
-        {
-            Dash();
-        }
-
         // salto normal y doble salto poto sexo
         if (Input.GetButtonDown("Jump"))
         {
@@ -82,8 +98,7 @@ public class MoverPersonaje : MonoBehaviour
         if (tocandoPared)
         {
             //Animator.Play("wall"); ANIMACION
-            rb.velocity = new Vector2(rb.velocity.x,
-                Mathf.Clamp(rb.velocity.y, -velocidadDeslizarPared, float.MaxValue));
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -velocidadDeslizarPared, float.MaxValue));
         }
 
     }
@@ -93,49 +108,59 @@ public class MoverPersonaje : MonoBehaviour
         rb.velocity = Vector2.up * strenghJump;
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other) // Controla que es lo que esta tocando el jugador
     {
         if (other.CompareTag("Floor") || other.CompareTag("PlataformaMovil"))
         {
             isGrounded = true;
             canDoubleJump = true;
-            tocandoPared = true;
         }
 
         if (other.CompareTag("PlataformaMovil"))
         {
             transform.parent = other.transform;
         }
+
+        if (other.CompareTag("ParedDerecha"))
+        {
+            isGrounded = true;
+            canDoubleJump = true;
+            tocandoPared = true;
+            tocandoParedDer = true;
+        }
+
+        if (other.CompareTag("ParedIzquierda"))
+        {
+            isGrounded = true;
+            canDoubleJump = true;
+            tocandoPared = true;
+            tocandoParedIzq = true;
+        }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other) // Controla si dejó de tocar algo el jugador
     {
         if (other.CompareTag("Floor") || other.CompareTag("PlataformaMovil"))
         {
             isGrounded = false;
-            tocandoPared = false;
         }
 
         if (other.CompareTag("PlataformaMovil"))
         {
             transform.parent = null;
         }
-    }
-
-    public void Dash()
-    {
-        //GameObject dashObject;
-        //dashObject = Instantiate();
-        if (SpriteRenderer.flipX)
+        if (other.CompareTag("ParedDerecha"))
         {
-            rb.AddForce(Vector2.left * dashForce,ForceMode2D.Impulse);
-        }
-        else
-        {
-            rb.AddForce(Vector2.right * dashForce,ForceMode2D.Impulse);
+            isGrounded = false;
+            tocandoPared = false;
+            tocandoParedDer = false;
         }
 
-        dashCooldown = 2;
-       // Destroy(dashObject,1);
+        if (other.CompareTag("ParedIzquierda"))
+        {
+            isGrounded = false;
+            tocandoPared = false;
+            tocandoParedIzq = false;
+        }
     }
 }
