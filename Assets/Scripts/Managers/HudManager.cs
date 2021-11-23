@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class HudManager : MonoBehaviour
 {
-    public GameObject menuPausa, player, menuOpciones, menuInicio;
+    public GameObject menuPausa, player, menuOpciones, menuInicio, creditos;
     public RespawnPersonaje datosPlayer;
     private bool permitirEscape = true;
 
@@ -19,6 +19,11 @@ public class HudManager : MonoBehaviour
         PlayerPrefs.DeleteKey("posY");
         PlayerPrefs.DeleteKey("vidas");
         SceneManager.LoadScene("Nivel 1");
+    }
+
+    public void BotonCreditos()
+    {
+        creditos.SetActive(true);
     }
 
     // Botones en el menu de pausa

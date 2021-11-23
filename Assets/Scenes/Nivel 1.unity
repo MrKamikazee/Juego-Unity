@@ -187,7 +187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &24937180
 GameObject:
@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 24937181}
   - component: {fileID: 24937183}
   - component: {fileID: 24937182}
+  - component: {fileID: 24937184}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -219,7 +220,7 @@ Transform:
   m_LocalScale: {x: 0.064381085, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &24937182
 BoxCollider2D:
@@ -298,6 +299,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &24937184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24937180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &30388255
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,6 +322,7 @@ GameObject:
   - component: {fileID: 30388256}
   - component: {fileID: 30388258}
   - component: {fileID: 30388257}
+  - component: {fileID: 30388259}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -328,7 +342,7 @@ Transform:
   m_LocalScale: {x: 0.06340165, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 55
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &30388257
 BoxCollider2D:
@@ -407,6 +421,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &30388259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30388255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &32900736
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,6 +444,7 @@ GameObject:
   - component: {fileID: 32900737}
   - component: {fileID: 32900739}
   - component: {fileID: 32900738}
+  - component: {fileID: 32900740}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -437,7 +464,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &32900738
 BoxCollider2D:
@@ -516,6 +543,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &32900740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32900736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &49369470
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +616,7 @@ GameObject:
   - component: {fileID: 54899763}
   - component: {fileID: 54899765}
   - component: {fileID: 54899764}
+  - component: {fileID: 54899766}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -596,7 +636,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &54899764
 BoxCollider2D:
@@ -675,6 +715,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &54899766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54899762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &61458581
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,6 +929,7 @@ GameObject:
   - component: {fileID: 63765559}
   - component: {fileID: 63765561}
   - component: {fileID: 63765560}
+  - component: {fileID: 63765562}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -896,7 +949,7 @@ Transform:
   m_LocalScale: {x: 0.06340165, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &63765560
 BoxCollider2D:
@@ -975,6 +1028,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &63765562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63765558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &65409961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,6 +1201,7 @@ GameObject:
   - component: {fileID: 72907561}
   - component: {fileID: 72907563}
   - component: {fileID: 72907562}
+  - component: {fileID: 72907564}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -1155,7 +1221,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &72907562
 BoxCollider2D:
@@ -1234,6 +1300,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &72907564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72907560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &73642678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,6 +1432,7 @@ GameObject:
   - component: {fileID: 78709852}
   - component: {fileID: 78709854}
   - component: {fileID: 78709853}
+  - component: {fileID: 78709855}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -1373,7 +1452,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &78709853
 BoxCollider2D:
@@ -1452,6 +1531,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &78709855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78709851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &89929727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,6 +1554,7 @@ GameObject:
   - component: {fileID: 89929728}
   - component: {fileID: 89929730}
   - component: {fileID: 89929729}
+  - component: {fileID: 89929731}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -1482,7 +1574,7 @@ Transform:
   m_LocalScale: {x: 0.06254053, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &89929729
 BoxCollider2D:
@@ -1561,6 +1653,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &89929731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89929727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &107923836
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,6 +1915,63 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 18.7, y: 5.46}
+  m_EdgeRadius: 0
+--- !u!1 &122902094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 122902095}
+  - component: {fileID: 122902096}
+  m_Layer: 0
+  m_Name: ParedDer
+  m_TagString: ParedDerecha
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &122902095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122902094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.94, y: 0.494, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 444124972}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &122902096
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122902094}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.6105207}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 5.599102}
   m_EdgeRadius: 0
 --- !u!1 &123231619
 GameObject:
@@ -2957,6 +3118,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &196210609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3691781710125740090, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+  m_PrefabInstance: {fileID: 596985290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &201552655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,6 +3134,7 @@ GameObject:
   - component: {fileID: 201552656}
   - component: {fileID: 201552658}
   - component: {fileID: 201552657}
+  - component: {fileID: 201552659}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -2987,7 +3154,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &201552657
 BoxCollider2D:
@@ -3066,6 +3233,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &201552659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201552655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &210837941
 GameObject:
   m_ObjectHideFlags: 0
@@ -3098,7 +3277,7 @@ Transform:
   - {fileID: 1494874194}
   - {fileID: 298282536}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &215692575
 GameObject:
@@ -3111,6 +3290,7 @@ GameObject:
   - component: {fileID: 215692576}
   - component: {fileID: 215692578}
   - component: {fileID: 215692577}
+  - component: {fileID: 215692579}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -3130,7 +3310,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 38
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &215692577
 BoxCollider2D:
@@ -3209,6 +3389,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &215692579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215692575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &217776971
 GameObject:
   m_ObjectHideFlags: 0
@@ -3289,7 +3481,7 @@ Transform:
   m_LocalScale: {x: 18.494392, y: 4.6246376, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &219254455
 GameObject:
@@ -3400,6 +3592,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &223247997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 223247998}
+  m_Layer: 0
+  m_Name: Posicion Inicial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &223247998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223247997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &224105352
 GameObject:
   m_ObjectHideFlags: 0
@@ -3411,6 +3633,7 @@ GameObject:
   - component: {fileID: 224105353}
   - component: {fileID: 224105355}
   - component: {fileID: 224105354}
+  - component: {fileID: 224105356}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -3430,7 +3653,7 @@ Transform:
   m_LocalScale: {x: 0.12698437, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &224105354
 BoxCollider2D:
@@ -3509,6 +3732,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &224105356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224105352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &227978872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3738,6 +3973,7 @@ GameObject:
   - component: {fileID: 232059014}
   - component: {fileID: 232059016}
   - component: {fileID: 232059015}
+  - component: {fileID: 232059017}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -3757,7 +3993,7 @@ Transform:
   m_LocalScale: {x: 0.06278286, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &232059015
 BoxCollider2D:
@@ -3836,6 +4072,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &232059017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232059013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &235128446
 GameObject:
   m_ObjectHideFlags: 0
@@ -3847,6 +4095,7 @@ GameObject:
   - component: {fileID: 235128447}
   - component: {fileID: 235128449}
   - component: {fileID: 235128448}
+  - component: {fileID: 235128450}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -3866,7 +4115,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &235128448
 BoxCollider2D:
@@ -3945,6 +4194,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &235128450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235128446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &237345251
 GameObject:
   m_ObjectHideFlags: 0
@@ -5058,6 +5319,7 @@ GameObject:
   - component: {fileID: 326260522}
   - component: {fileID: 326260521}
   - component: {fileID: 326260520}
+  - component: {fileID: 326260523}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -5154,8 +5416,20 @@ Transform:
   m_LocalScale: {x: 0.09506415, y: 0.15775155, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
+--- !u!114 &326260523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326260519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &329257325
 GameObject:
   m_ObjectHideFlags: 0
@@ -5629,6 +5903,7 @@ GameObject:
   - component: {fileID: 378407292}
   - component: {fileID: 378407294}
   - component: {fileID: 378407293}
+  - component: {fileID: 378407295}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -5648,7 +5923,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &378407293
 BoxCollider2D:
@@ -5727,6 +6002,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &378407295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378407291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &382743933
 GameObject:
   m_ObjectHideFlags: 0
@@ -5847,6 +6134,7 @@ GameObject:
   - component: {fileID: 399609987}
   - component: {fileID: 399609989}
   - component: {fileID: 399609988}
+  - component: {fileID: 399609990}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -5866,7 +6154,7 @@ Transform:
   m_LocalScale: {x: 0.06218686, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &399609988
 BoxCollider2D:
@@ -5945,6 +6233,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &399609990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399609986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &430710551 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7618795218438475394, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+  m_PrefabInstance: {fileID: 7618795218293510549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &430710554 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7618795218438475407, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+  m_PrefabInstance: {fileID: 7618795218293510549}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430710551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240deb75eeb1efe488dee7eb38ceca85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &432796948
 GameObject:
   m_ObjectHideFlags: 0
@@ -6221,7 +6537,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 17.8377, y: -3.6094, z: 0}
   m_LocalScale: {x: 0.15051197, y: 1.3036871, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 122902095}
+  - {fileID: 1578445055}
   m_Father: {fileID: 601076801}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6586,6 +6904,7 @@ GameObject:
   - component: {fileID: 455553157}
   - component: {fileID: 455553159}
   - component: {fileID: 455553158}
+  - component: {fileID: 455553160}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -6605,7 +6924,7 @@ Transform:
   m_LocalScale: {x: 0.06442181, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 62
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &455553158
 BoxCollider2D:
@@ -6684,6 +7003,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &455553160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455553156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &462861595
 GameObject:
   m_ObjectHideFlags: 0
@@ -6804,6 +7135,7 @@ GameObject:
   - component: {fileID: 467291832}
   - component: {fileID: 467291834}
   - component: {fileID: 467291833}
+  - component: {fileID: 467291835}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -6823,7 +7155,7 @@ Transform:
   m_LocalScale: {x: 0.06442181, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 64
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &467291833
 BoxCollider2D:
@@ -6902,6 +7234,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &467291835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467291831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &470898701
 GameObject:
   m_ObjectHideFlags: 0
@@ -7011,6 +7355,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &473120446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 473120447}
+  - component: {fileID: 473120448}
+  m_Layer: 0
+  m_Name: ParedDer
+  m_TagString: ParedDerecha
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &473120447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473120446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.92, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1499888271}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &473120448
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473120446}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.7220458}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.9050748}
+  m_EdgeRadius: 0
 --- !u!1 &485864279
 GameObject:
   m_ObjectHideFlags: 0
@@ -7022,6 +7423,7 @@ GameObject:
   - component: {fileID: 485864280}
   - component: {fileID: 485864282}
   - component: {fileID: 485864281}
+  - component: {fileID: 485864283}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -7041,7 +7443,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &485864281
 BoxCollider2D:
@@ -7120,6 +7522,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &485864283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485864279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &489946111
 GameObject:
   m_ObjectHideFlags: 0
@@ -7337,7 +7751,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.430813, y: -5.3024, z: 0}
   m_LocalScale: {x: 0.28118676, y: 0.67797863, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1007556855}
   m_Father: {fileID: 601076801}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7429,6 +7844,7 @@ GameObject:
   - component: {fileID: 557310050}
   - component: {fileID: 557310052}
   - component: {fileID: 557310051}
+  - component: {fileID: 557310053}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -7448,7 +7864,7 @@ Transform:
   m_LocalScale: {x: 0.06428927, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &557310051
 BoxCollider2D:
@@ -7527,6 +7943,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &557310053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557310049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &564132165
 GameObject:
   m_ObjectHideFlags: 0
@@ -7538,6 +7966,7 @@ GameObject:
   - component: {fileID: 564132166}
   - component: {fileID: 564132168}
   - component: {fileID: 564132167}
+  - component: {fileID: 564132169}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -7557,7 +7986,7 @@ Transform:
   m_LocalScale: {x: 0.11143813, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 69
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &564132167
 BoxCollider2D:
@@ -7636,6 +8065,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &564132169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564132165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &566534760
 GameObject:
   m_ObjectHideFlags: 0
@@ -7756,6 +8197,7 @@ GameObject:
   - component: {fileID: 578861376}
   - component: {fileID: 578861378}
   - component: {fileID: 578861377}
+  - component: {fileID: 578861379}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -7775,7 +8217,7 @@ Transform:
   m_LocalScale: {x: 0.15860347, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &578861377
 BoxCollider2D:
@@ -7854,6 +8296,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &578861379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578861375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &596985290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8191,7 +8645,7 @@ Transform:
   - {fileID: 990618264}
   - {fileID: 1721732261}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &604390652
 GameObject:
@@ -8204,6 +8658,7 @@ GameObject:
   - component: {fileID: 604390653}
   - component: {fileID: 604390655}
   - component: {fileID: 604390654}
+  - component: {fileID: 604390656}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -8223,7 +8678,7 @@ Transform:
   m_LocalScale: {x: 0.06427027, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 61
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &604390654
 BoxCollider2D:
@@ -8302,6 +8757,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &604390656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604390652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &614493775
 GameObject:
   m_ObjectHideFlags: 0
@@ -8610,7 +9077,6 @@ Transform:
   - {fileID: 1507029689}
   - {fileID: 369869329}
   - {fileID: 736284618}
-  - {fileID: 1907975446}
   - {fileID: 326260522}
   - {fileID: 2061229389}
   - {fileID: 78709852}
@@ -8675,7 +9141,7 @@ Transform:
   - {fileID: 1189842671}
   - {fileID: 814520386}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &637796426
 GameObject:
@@ -9236,6 +9702,7 @@ GameObject:
   - component: {fileID: 703715741}
   - component: {fileID: 703715743}
   - component: {fileID: 703715742}
+  - component: {fileID: 703715744}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -9255,7 +9722,7 @@ Transform:
   m_LocalScale: {x: 0.06442181, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 66
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &703715742
 BoxCollider2D:
@@ -9334,6 +9801,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &703715744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703715740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &703881325
 GameObject:
   m_ObjectHideFlags: 0
@@ -9375,6 +9854,7 @@ GameObject:
   - component: {fileID: 721386621}
   - component: {fileID: 721386623}
   - component: {fileID: 721386622}
+  - component: {fileID: 721386624}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -9394,7 +9874,7 @@ Transform:
   m_LocalScale: {x: 0.064381085, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &721386622
 BoxCollider2D:
@@ -9473,6 +9953,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &721386624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721386620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &726723050
 GameObject:
   m_ObjectHideFlags: 0
@@ -9564,6 +10056,7 @@ GameObject:
   - component: {fileID: 736184423}
   - component: {fileID: 736184425}
   - component: {fileID: 736184424}
+  - component: {fileID: 736184426}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -9583,7 +10076,7 @@ Transform:
   m_LocalScale: {x: 0.06442181, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 65
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &736184424
 BoxCollider2D:
@@ -9662,6 +10155,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &736184426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736184422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &736284617
 GameObject:
   m_ObjectHideFlags: 0
@@ -9877,6 +10382,7 @@ GameObject:
   - component: {fileID: 747415463}
   - component: {fileID: 747415465}
   - component: {fileID: 747415464}
+  - component: {fileID: 747415466}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -9896,7 +10402,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &747415464
 BoxCollider2D:
@@ -9975,6 +10481,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &747415466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747415462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &755506869
 GameObject:
   m_ObjectHideFlags: 0
@@ -10166,6 +10684,11 @@ Transform:
   m_Father: {fileID: 1909550532}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &783857487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3691781709857063897, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+  m_PrefabInstance: {fileID: 596985290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &790503620
 GameObject:
   m_ObjectHideFlags: 0
@@ -10286,6 +10809,7 @@ GameObject:
   - component: {fileID: 792815538}
   - component: {fileID: 792815540}
   - component: {fileID: 792815539}
+  - component: {fileID: 792815541}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -10305,7 +10829,7 @@ Transform:
   m_LocalScale: {x: 0.064381085, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &792815539
 BoxCollider2D:
@@ -10384,6 +10908,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &792815541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792815537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &794481748
 GameObject:
   m_ObjectHideFlags: 0
@@ -10668,6 +11204,7 @@ GameObject:
   - component: {fileID: 814520386}
   - component: {fileID: 814520388}
   - component: {fileID: 814520387}
+  - component: {fileID: 814520389}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -10687,7 +11224,7 @@ Transform:
   m_LocalScale: {x: 0.16057476, y: 0.17128667, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 71
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &814520387
 BoxCollider2D:
@@ -10766,6 +11303,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &814520389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814520385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &816975844
 GameObject:
   m_ObjectHideFlags: 0
@@ -10981,6 +11530,7 @@ GameObject:
   - component: {fileID: 852484516}
   - component: {fileID: 852484518}
   - component: {fileID: 852484517}
+  - component: {fileID: 852484519}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -11000,7 +11550,7 @@ Transform:
   m_LocalScale: {x: 0.16028602, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &852484517
 BoxCollider2D:
@@ -11079,6 +11629,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &852484519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852484515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &853146362
 GameObject:
   m_ObjectHideFlags: 0
@@ -11090,6 +11652,7 @@ GameObject:
   - component: {fileID: 853146363}
   - component: {fileID: 853146365}
   - component: {fileID: 853146364}
+  - component: {fileID: 853146366}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -11109,7 +11672,7 @@ Transform:
   m_LocalScale: {x: 0.064381085, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &853146364
 BoxCollider2D:
@@ -11188,6 +11751,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &853146366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853146362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &871736325
 GameObject:
   m_ObjectHideFlags: 0
@@ -11908,6 +12483,7 @@ GameObject:
   - component: {fileID: 945098561}
   - component: {fileID: 945098563}
   - component: {fileID: 945098562}
+  - component: {fileID: 945098564}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -11927,7 +12503,7 @@ Transform:
   m_LocalScale: {x: 0.06380372, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &945098562
 BoxCollider2D:
@@ -12006,6 +12582,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &945098564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945098560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &949509632
 GameObject:
   m_ObjectHideFlags: 0
@@ -12347,6 +12935,7 @@ GameObject:
   - component: {fileID: 965025235}
   - component: {fileID: 965025237}
   - component: {fileID: 965025236}
+  - component: {fileID: 965025238}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -12366,7 +12955,7 @@ Transform:
   m_LocalScale: {x: 0.06340165, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 56
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &965025236
 BoxCollider2D:
@@ -12445,6 +13034,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &965025238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965025234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &973312087
 GameObject:
   m_ObjectHideFlags: 0
@@ -12456,6 +13057,7 @@ GameObject:
   - component: {fileID: 973312088}
   - component: {fileID: 973312090}
   - component: {fileID: 973312089}
+  - component: {fileID: 973312091}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -12475,7 +13077,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &973312089
 BoxCollider2D:
@@ -12554,6 +13156,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &973312091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973312087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &981690695
 GameObject:
   m_ObjectHideFlags: 0
@@ -12582,7 +13196,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 29.566301, y: -3.9322, z: 0}
   m_LocalScale: {x: 0.15133198, y: 1.1707264, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1121132383}
+  - {fileID: 2096263039}
   m_Father: {fileID: 601076801}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12759,7 +13375,7 @@ PrefabInstance:
     - target: {fileID: 1847162991964601858, guid: b63c7c1b62920c840bd3281180fa8fd4, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 430710551}
     - target: {fileID: 1847162991964601858, guid: b63c7c1b62920c840bd3281180fa8fd4, type: 3}
       propertyPath: suavizado
       value: 0.2
@@ -12826,6 +13442,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b63c7c1b62920c840bd3281180fa8fd4, type: 3}
+--- !u!1 &1007556854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007556855}
+  - component: {fileID: 1007556856}
+  m_Layer: 0
+  m_Name: ParedIzq
+  m_TagString: ParedIzquierda
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1007556855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007556854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.9, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 544631616}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1007556856
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007556854}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.70461774}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.9254284}
+  m_EdgeRadius: 0
 --- !u!1 &1015239310
 GameObject:
   m_ObjectHideFlags: 0
@@ -13355,6 +14028,7 @@ GameObject:
   - component: {fileID: 1059531505}
   - component: {fileID: 1059531507}
   - component: {fileID: 1059531506}
+  - component: {fileID: 1059531508}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -13374,7 +14048,7 @@ Transform:
   m_LocalScale: {x: 0.11143813, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 68
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1059531506
 BoxCollider2D:
@@ -13453,6 +14127,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1059531508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059531504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1088887454
 GameObject:
   m_ObjectHideFlags: 0
@@ -13974,6 +14660,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1121132382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1121132383}
+  - component: {fileID: 1121132384}
+  m_Layer: 0
+  m_Name: ParedDer
+  m_TagString: ParedDerecha
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1121132383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121132382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.93, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 981690696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1121132384
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121132382}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.33889413}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.048592}
+  m_EdgeRadius: 0
 --- !u!1 &1123371925
 GameObject:
   m_ObjectHideFlags: 0
@@ -14444,6 +15187,7 @@ GameObject:
   - component: {fileID: 1162826078}
   - component: {fileID: 1162826080}
   - component: {fileID: 1162826079}
+  - component: {fileID: 1162826081}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -14463,7 +15207,7 @@ Transform:
   m_LocalScale: {x: 0.06391295, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1162826079
 BoxCollider2D:
@@ -14542,6 +15286,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1162826081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162826077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1163587003
 GameObject:
   m_ObjectHideFlags: 0
@@ -14662,6 +15418,7 @@ GameObject:
   - component: {fileID: 1189842671}
   - component: {fileID: 1189842673}
   - component: {fileID: 1189842672}
+  - component: {fileID: 1189842674}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -14681,7 +15438,7 @@ Transform:
   m_LocalScale: {x: 0.16057476, y: 0.17128667, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 70
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1189842672
 BoxCollider2D:
@@ -14760,6 +15517,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1189842674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189842670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1197014888
 GameObject:
   m_ObjectHideFlags: 0
@@ -14924,6 +15693,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1202921143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1202921144}
+  - component: {fileID: 1202921145}
+  m_Layer: 0
+  m_Name: ParedIzq
+  m_TagString: ParedIzquierda
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1202921144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202921143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.98, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1499888271}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1202921145
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202921143}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.73586166}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.90054}
+  m_EdgeRadius: 0
 --- !u!1 &1205761434
 GameObject:
   m_ObjectHideFlags: 0
@@ -15404,6 +16230,7 @@ GameObject:
   - component: {fileID: 1306016228}
   - component: {fileID: 1306016230}
   - component: {fileID: 1306016229}
+  - component: {fileID: 1306016231}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -15423,7 +16250,7 @@ Transform:
   m_LocalScale: {x: 0.06303399, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 58
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1306016229
 BoxCollider2D:
@@ -15502,6 +16329,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1306016231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306016227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1308627786 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8038153530802140402, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
@@ -16036,6 +16875,7 @@ GameObject:
   - component: {fileID: 1371102789}
   - component: {fileID: 1371102791}
   - component: {fileID: 1371102790}
+  - component: {fileID: 1371102792}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -16055,7 +16895,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1371102790
 BoxCollider2D:
@@ -16134,6 +16974,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1371102792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371102788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1374079762
 GameObject:
   m_ObjectHideFlags: 0
@@ -16445,6 +17297,7 @@ GameObject:
   - component: {fileID: 1391895406}
   - component: {fileID: 1391895408}
   - component: {fileID: 1391895407}
+  - component: {fileID: 1391895409}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -16464,7 +17317,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &1391895407
 BoxCollider2D:
@@ -16543,6 +17396,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1391895409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391895405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1403407887
 GameObject:
   m_ObjectHideFlags: 0
@@ -16745,6 +17610,7 @@ GameObject:
   - component: {fileID: 1409419457}
   - component: {fileID: 1409419459}
   - component: {fileID: 1409419458}
+  - component: {fileID: 1409419460}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -16764,7 +17630,7 @@ Transform:
   m_LocalScale: {x: 0.06428927, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 54
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1409419458
 BoxCollider2D:
@@ -16843,6 +17709,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1409419460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409419456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1411412999
 GameObject:
   m_ObjectHideFlags: 0
@@ -17290,6 +18168,7 @@ GameObject:
   - component: {fileID: 1422547499}
   - component: {fileID: 1422547501}
   - component: {fileID: 1422547500}
+  - component: {fileID: 1422547502}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -17309,7 +18188,7 @@ Transform:
   m_LocalScale: {x: 0.064381085, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1422547500
 BoxCollider2D:
@@ -17388,6 +18267,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1422547502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422547498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1423463634
 GameObject:
   m_ObjectHideFlags: 0
@@ -18423,6 +19314,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1483524970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483524971}
+  - component: {fileID: 1483524972}
+  m_Layer: 0
+  m_Name: ParedIzq
+  m_TagString: ParedIzquierda
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1483524971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483524970}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.02, y: 1.97, z: 0}
+  m_LocalScale: {x: 0.7719983, y: 1.9603878, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1919254386}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1483524972
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483524970}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09579742}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4.5696554}
+  m_EdgeRadius: 0
 --- !u!1 &1493203956
 GameObject:
   m_ObjectHideFlags: 0
@@ -18764,7 +19712,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.6403679, y: -5.2981, z: 0}
   m_LocalScale: {x: 0.17371325, y: 0.674838, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 473120447}
+  - {fileID: 1202921144}
   m_Father: {fileID: 601076801}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18856,6 +19806,7 @@ GameObject:
   - component: {fileID: 1501967860}
   - component: {fileID: 1501967862}
   - component: {fileID: 1501967861}
+  - component: {fileID: 1501967863}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -18875,7 +19826,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1501967861
 BoxCollider2D:
@@ -18954,6 +19905,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1501967863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501967859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1502376636
 GameObject:
   m_ObjectHideFlags: 0
@@ -19305,6 +20268,7 @@ GameObject:
   - component: {fileID: 1568267378}
   - component: {fileID: 1568267380}
   - component: {fileID: 1568267379}
+  - component: {fileID: 1568267381}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -19324,7 +20288,7 @@ Transform:
   m_LocalScale: {x: 0.15860347, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1568267379
 BoxCollider2D:
@@ -19403,6 +20367,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1568267381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568267377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1576899064
 GameObject:
   m_ObjectHideFlags: 0
@@ -19512,6 +20488,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1578445054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578445055}
+  - component: {fileID: 1578445056}
+  m_Layer: 0
+  m_Name: ParedIzq
+  m_TagString: ParedIzquierda
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1578445055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578445054}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.92, y: 0.495, z: 0}
+  m_LocalScale: {x: 1.0000113, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 444124972}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1578445056
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578445054}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.65120065}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 5.680462}
+  m_EdgeRadius: 0
 --- !u!1 &1594075726
 GameObject:
   m_ObjectHideFlags: 0
@@ -19523,6 +20556,7 @@ GameObject:
   - component: {fileID: 1594075727}
   - component: {fileID: 1594075729}
   - component: {fileID: 1594075728}
+  - component: {fileID: 1594075730}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -19542,7 +20576,7 @@ Transform:
   m_LocalScale: {x: 0.06411465, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 60
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1594075728
 BoxCollider2D:
@@ -19621,6 +20655,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1594075730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594075726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1606214199
 GameObject:
   m_ObjectHideFlags: 0
@@ -19741,6 +20787,7 @@ GameObject:
   - component: {fileID: 1654114545}
   - component: {fileID: 1654114547}
   - component: {fileID: 1654114546}
+  - component: {fileID: 1654114548}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -19760,7 +20807,7 @@ Transform:
   m_LocalScale: {x: 0.06463317, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 59
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1654114546
 BoxCollider2D:
@@ -19839,6 +20886,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1654114548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654114544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1662794390
 GameObject:
   m_ObjectHideFlags: 0
@@ -20002,6 +21061,7 @@ GameObject:
   - component: {fileID: 1671720524}
   - component: {fileID: 1671720526}
   - component: {fileID: 1671720525}
+  - component: {fileID: 1671720527}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -20021,7 +21081,7 @@ Transform:
   m_LocalScale: {x: 0.06442181, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 67
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1671720525
 BoxCollider2D:
@@ -20100,6 +21160,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1671720527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671720523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1688659748
 GameObject:
   m_ObjectHideFlags: 0
@@ -20411,6 +21483,7 @@ GameObject:
   - component: {fileID: 1694496172}
   - component: {fileID: 1694496174}
   - component: {fileID: 1694496173}
+  - component: {fileID: 1694496175}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -20430,7 +21503,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &1694496173
 BoxCollider2D:
@@ -20509,6 +21582,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1694496175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694496171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1706040528
 GameObject:
   m_ObjectHideFlags: 0
@@ -20820,6 +21905,7 @@ GameObject:
   - component: {fileID: 1729869086}
   - component: {fileID: 1729869088}
   - component: {fileID: 1729869087}
+  - component: {fileID: 1729869089}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -20839,7 +21925,7 @@ Transform:
   m_LocalScale: {x: 0.06391295, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 57
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1729869087
 BoxCollider2D:
@@ -20918,6 +22004,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1729869089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729869085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1736184758
 GameObject:
   m_ObjectHideFlags: 0
@@ -20929,6 +22027,7 @@ GameObject:
   - component: {fileID: 1736184759}
   - component: {fileID: 1736184761}
   - component: {fileID: 1736184760}
+  - component: {fileID: 1736184762}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -20948,7 +22047,7 @@ Transform:
   m_LocalScale: {x: 0.06340165, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1736184760
 BoxCollider2D:
@@ -21027,6 +22126,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1736184762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736184758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1758090275
 GameObject:
   m_ObjectHideFlags: 0
@@ -21038,6 +22149,7 @@ GameObject:
   - component: {fileID: 1758090276}
   - component: {fileID: 1758090278}
   - component: {fileID: 1758090277}
+  - component: {fileID: 1758090279}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -21057,7 +22169,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 37
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1758090277
 BoxCollider2D:
@@ -21136,6 +22248,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1758090279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758090275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1766025782
 GameObject:
   m_ObjectHideFlags: 0
@@ -21147,6 +22271,7 @@ GameObject:
   - component: {fileID: 1766025783}
   - component: {fileID: 1766025785}
   - component: {fileID: 1766025784}
+  - component: {fileID: 1766025786}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -21166,7 +22291,7 @@ Transform:
   m_LocalScale: {x: 0.064381085, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1766025784
 BoxCollider2D:
@@ -21245,6 +22370,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1766025786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766025782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1771072024
 GameObject:
   m_ObjectHideFlags: 0
@@ -21883,6 +23020,7 @@ GameObject:
   - component: {fileID: 1818442021}
   - component: {fileID: 1818442023}
   - component: {fileID: 1818442022}
+  - component: {fileID: 1818442024}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -21902,7 +23040,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1818442022
 BoxCollider2D:
@@ -21981,6 +23119,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1818442024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818442020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1825824512
 GameObject:
   m_ObjectHideFlags: 0
@@ -21992,6 +23142,7 @@ GameObject:
   - component: {fileID: 1825824513}
   - component: {fileID: 1825824515}
   - component: {fileID: 1825824514}
+  - component: {fileID: 1825824516}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -22011,7 +23162,7 @@ Transform:
   m_LocalScale: {x: 0.06442181, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 63
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1825824514
 BoxCollider2D:
@@ -22090,6 +23241,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1825824516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825824512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1832156230
 GameObject:
   m_ObjectHideFlags: 0
@@ -22101,6 +23264,7 @@ GameObject:
   - component: {fileID: 1832156231}
   - component: {fileID: 1832156233}
   - component: {fileID: 1832156232}
+  - component: {fileID: 1832156234}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -22120,7 +23284,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &1832156232
 BoxCollider2D:
@@ -22199,6 +23363,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1832156234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832156230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1834404856
 GameObject:
   m_ObjectHideFlags: 0
@@ -22265,6 +23441,7 @@ GameObject:
   - component: {fileID: 1846812533}
   - component: {fileID: 1846812535}
   - component: {fileID: 1846812534}
+  - component: {fileID: 1846812536}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -22284,7 +23461,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1846812534
 BoxCollider2D:
@@ -22363,6 +23540,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1846812536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846812532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1849077627
 GameObject:
   m_ObjectHideFlags: 0
@@ -22456,6 +23645,7 @@ GameObject:
   - component: {fileID: 1850842134}
   - component: {fileID: 1850842136}
   - component: {fileID: 1850842135}
+  - component: {fileID: 1850842137}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -22475,7 +23665,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &1850842135
 BoxCollider2D:
@@ -22554,6 +23744,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1850842137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850842133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1864321326
 GameObject:
   m_ObjectHideFlags: 0
@@ -22854,115 +24056,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 17.007961, y: 5.5583725}
   m_EdgeRadius: 0
---- !u!1 &1907975443
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1907975446}
-  - component: {fileID: 1907975445}
-  - component: {fileID: 1907975444}
-  m_Layer: 0
-  m_Name: pinchos rojos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1907975444
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907975443}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.01783848, y: -0.7797647}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 15.66, y: 4.83}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 13.20486, y: 3.091289}
-  m_EdgeRadius: 0
---- !u!212 &1907975445
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907975443}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 627096792ddae994e90f838eb46b6918, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1907975446
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907975443}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.14187622, y: 0.41766167, z: 141.22713}
-  m_LocalScale: {x: 0.09955608, y: 0.15775155, z: 1}
-  m_Children: []
-  m_Father: {fileID: 632640844}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1909550531
 GameObject:
   m_ObjectHideFlags: 0
@@ -23016,7 +24109,7 @@ Transform:
   - {fileID: 141267889}
   - {fileID: 1815950820}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1916381861
 GameObject:
@@ -23155,7 +24248,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 12.169902, y: -1.1310475, z: 0}
   m_LocalScale: {x: 0.19496632, y: 0.6650149, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1483524971}
   m_Father: {fileID: 601076801}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23247,6 +24341,7 @@ GameObject:
   - component: {fileID: 1920578523}
   - component: {fileID: 1920578525}
   - component: {fileID: 1920578524}
+  - component: {fileID: 1920578526}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -23266,7 +24361,7 @@ Transform:
   m_LocalScale: {x: 0.064381085, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1920578524
 BoxCollider2D:
@@ -23345,6 +24440,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1920578526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920578522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1925111037
 GameObject:
   m_ObjectHideFlags: 0
@@ -23356,6 +24463,7 @@ GameObject:
   - component: {fileID: 1925111038}
   - component: {fileID: 1925111040}
   - component: {fileID: 1925111039}
+  - component: {fileID: 1925111041}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -23375,7 +24483,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1925111039
 BoxCollider2D:
@@ -23454,6 +24562,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1925111041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925111037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1948956689
 GameObject:
   m_ObjectHideFlags: 0
@@ -23648,7 +24768,7 @@ Transform:
   - {fileID: 1162118691}
   - {fileID: 730587189}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1990973743
 GameObject:
@@ -23770,6 +24890,7 @@ GameObject:
   - component: {fileID: 1997103238}
   - component: {fileID: 1997103240}
   - component: {fileID: 1997103239}
+  - component: {fileID: 1997103241}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -23789,7 +24910,7 @@ Transform:
   m_LocalScale: {x: 0.09506418, y: 0.15775158, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
 --- !u!61 &1997103239
 BoxCollider2D:
@@ -23868,6 +24989,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1997103241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997103237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1998134475
 GameObject:
   m_ObjectHideFlags: 0
@@ -24225,6 +25358,11 @@ Transform:
   m_Father: {fileID: 489946112}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2027488498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3691781710076707168, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+  m_PrefabInstance: {fileID: 596985290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2043838748
 GameObject:
   m_ObjectHideFlags: 0
@@ -24427,6 +25565,7 @@ GameObject:
   - component: {fileID: 2061229389}
   - component: {fileID: 2061229391}
   - component: {fileID: 2061229390}
+  - component: {fileID: 2061229392}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -24446,7 +25585,7 @@ Transform:
   m_LocalScale: {x: 0.065657236, y: 0.15775156, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2061229390
 BoxCollider2D:
@@ -24525,6 +25664,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2061229392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061229388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2068922656
 GameObject:
   m_ObjectHideFlags: 0
@@ -24634,6 +25785,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2070032747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3691781709941782930, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+  m_PrefabInstance: {fileID: 596985290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2074023065
 GameObject:
   m_ObjectHideFlags: 0
@@ -24727,6 +25883,7 @@ GameObject:
   - component: {fileID: 2074603903}
   - component: {fileID: 2074603905}
   - component: {fileID: 2074603904}
+  - component: {fileID: 2074603906}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -24746,7 +25903,7 @@ Transform:
   m_LocalScale: {x: 0.063133866, y: 0.11757575, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &2074603904
 BoxCollider2D:
@@ -24825,6 +25982,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2074603906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074603902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2096263038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2096263039}
+  - component: {fileID: 2096263040}
+  m_Layer: 0
+  m_Name: ParedIzq
+  m_TagString: ParedIzquierda
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2096263039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096263038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.92, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 981690696}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2096263040
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096263038}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.26871383}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4.8316803}
+  m_EdgeRadius: 0
 --- !u!1 &2104364648
 GameObject:
   m_ObjectHideFlags: 0
@@ -24968,6 +26194,7 @@ GameObject:
   - component: {fileID: 2116677696}
   - component: {fileID: 2116677698}
   - component: {fileID: 2116677697}
+  - component: {fileID: 2116677699}
   m_Layer: 0
   m_Name: pinchos rojos
   m_TagString: Untagged
@@ -24987,7 +26214,7 @@ Transform:
   m_LocalScale: {x: 0.12731922, y: 0.18630461, z: 1}
   m_Children: []
   m_Father: {fileID: 632640844}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2116677697
 BoxCollider2D:
@@ -25066,6 +26293,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2116677699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116677695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94dfcf4a4030664eaa424f7249b2acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2119567283
 GameObject:
   m_ObjectHideFlags: 0
@@ -25561,6 +26800,10 @@ PrefabInstance:
     - target: {fileID: 2221509751986367133, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
       propertyPath: tpPersonaje
       value: 
+      objectReference: {fileID: 430710554}
+    - target: {fileID: 2221509751986367135, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 7008569742792607585, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
       propertyPath: m_IsTrigger
@@ -25634,3 +26877,97 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 839579d5734b4ce448f9687c44af9ab1, type: 3}
+--- !u!1001 &7618795218293510549
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5910510458257234628, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_Size.y
+      value: 29.367653
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910510458257234628, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.80773735
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910510458257234628, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.102185726
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475394, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_Name
+      value: Personaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475403, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475407, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: life
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618795218438475407, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: posInicial
+      value: 
+      objectReference: {fileID: 223247998}
+    - target: {fileID: 7618795218438475407, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: vida.Array.data[0]
+      value: 
+      objectReference: {fileID: 2027488498}
+    - target: {fileID: 7618795218438475407, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: vida.Array.data[1]
+      value: 
+      objectReference: {fileID: 196210609}
+    - target: {fileID: 7618795218438475407, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: vida.Array.data[2]
+      value: 
+      objectReference: {fileID: 2070032747}
+    - target: {fileID: 7618795218438475407, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+      propertyPath: vida.Array.data[3]
+      value: 
+      objectReference: {fileID: 783857487}
+    m_RemovedComponents:
+    - {fileID: 7618795218438475405, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 23d041cb0e2223d4f8552aa225e5660f, type: 3}

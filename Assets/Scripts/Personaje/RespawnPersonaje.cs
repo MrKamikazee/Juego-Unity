@@ -10,6 +10,7 @@ public class RespawnPersonaje : MonoBehaviour
     public GameObject[] vida;
     public int life;
     private bool continuarLVL = true;
+    public Transform posInicial;
 
     private void Start()
     {
@@ -60,9 +61,10 @@ public class RespawnPersonaje : MonoBehaviour
         
         if(life < 1)
         {
-            transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
+            transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
             life = 5;
             ControladorVida();
+            ResetearCheckpoint();
         }
         else
         {
@@ -83,19 +85,32 @@ public class RespawnPersonaje : MonoBehaviour
         }
     }
 
+    private void ResetearCheckpoint()
+    {
+        PlayerPrefs.DeleteKey("checkPointPositionX");
+        PlayerPrefs.DeleteKey("checkPointPositionY");
+    }
+    
     public void FinCaida()
     {
         if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
         {
             life--;
-            ControladorVida();
-            transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
+            if (life != 0)
+            {
+                ControladorVida();
+                transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
+            }
+            else
+            {
+                ControladorVida();
+            }
         }
         else
         {
             life--;
             ControladorVida();
-            transform.position = new Vector2(0, 0);
+            transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
         }
     }
 }
