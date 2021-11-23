@@ -41,7 +41,7 @@ public class MoverPersonaje : MonoBehaviour
         rb.velocity = new Vector2(velX * speed, rb.velocity.y);
         
         dashCooldown -= Time.deltaTime;
-        if (Input.GetKey("c")&& dashCooldown<=2)
+        if (Input.GetKey("c")&& dashCooldown<=4)
         {
             Dash();
         }
