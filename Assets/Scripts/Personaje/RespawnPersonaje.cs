@@ -87,10 +87,14 @@ public class RespawnPersonaje : MonoBehaviour
     {
         if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
         {
+            life--;
+            ControladorVida();
             transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
         }
         else
         {
+            life--;
+            ControladorVida();
             transform.position = new Vector2(0, 0);
         }
     }
