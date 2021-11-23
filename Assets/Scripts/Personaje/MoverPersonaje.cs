@@ -8,6 +8,8 @@ public class MoverPersonaje : MonoBehaviour
     [Header("General Variables")]
     public Rigidbody2D rb;
 
+    public Animator animator;
+
     [Header("Move Mechanics")] 
     public float speed; 
     public float velX, velY;
@@ -39,6 +41,21 @@ public class MoverPersonaje : MonoBehaviour
         velX = Input.GetAxisRaw("Horizontal");
         velY = rb.velocity.y;
         rb.velocity = new Vector2(velX * speed, rb.velocity.y);
+        if (velX < 0)
+        {
+            SpriteRenderer.flipX = true;
+            animator.SetBool("correr",true);
+        }
+        else if (velX > 0)
+        {
+            SpriteRenderer.flipX = false;
+            animator.SetBool("correr",true);
+        }
+
+        if (velX == 0)
+        {
+            animator.SetBool("correr",false);
+        }
     }
 
     void Update()
