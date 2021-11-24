@@ -1,0 +1,136 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 12130 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Engine\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Descargas/U/Taller Diseño 1 - Lathrop, Romina/Jueguito UNITY/Juego-Unity
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49833
+Successfully changed project path to: D:/Descargas/U/Taller Diseño 1 - Lathrop, Romina/Jueguito UNITY/Juego-Unity
+D:/Descargas/U/Taller Diseño 1 - Lathrop, Romina/Jueguito UNITY/Juego-Unity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 102.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Descargas/U/Taller Diseño 1 - Lathrop, Romina/Jueguito UNITY/Juego-Unity/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4019 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity Engine/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011289 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.230 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.029817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 127.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.217 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3106.
+Total: 4.878300 ms (FindLiveObjects: 0.429500 ms CreateObjectMapping: 0.569800 ms MarkObjects: 3.743600 ms  DeleteObjects: 0.133700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/rio_4to_lvl_pp.png
+  artifactKey: Guid(9f88173d5a9843341a7d59b1acabb48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/rio_4to_lvl_pp.png using Guid(9f88173d5a9843341a7d59b1acabb48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daebdf0c5eb05ff1bcc6a9c90e42ada') in 0.509508 seconds
+  Import took 0.672286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Sprites/piso_chico_boss.png
+  artifactKey: Guid(359085d180ffb384f88b7819b6400824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/piso_chico_boss.png using Guid(359085d180ffb384f88b7819b6400824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc44ed81340bea82106e0ec0ffe44821') in 0.109940 seconds
+  Import took 0.158113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/piso_boss.png
+  artifactKey: Guid(16ae7541aae766647a3c2f527ef99065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/piso_boss.png using Guid(16ae7541aae766647a3c2f527ef99065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3849ac062e59c32042605dbe9a3266ac') in 0.116237 seconds
+  Import took 0.227076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/korazon_este_si.png
+  artifactKey: Guid(d82a630eab4036f4987f49c64faf194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/korazon_este_si.png using Guid(d82a630eab4036f4987f49c64faf194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2a54d8137fca498f4a3a192576b4d0') in 0.113957 seconds
+  Import took 0.133324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Sprites/jefe_final_enojado_atacando.png
+  artifactKey: Guid(3f28226360c3f014cbb0c4521a59febb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/jefe_final_enojado_atacando.png using Guid(3f28226360c3f014cbb0c4521a59febb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed4798373ec1943abbf7b2986bd7f43') in 0.167213 seconds
+  Import took 0.221503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1138.665259 seconds.
+  path: Assets/Scenes/Nivel 2.unity
+  artifactKey: Guid(51d230b29dfc7574192ab79a904a93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel 2.unity using Guid(51d230b29dfc7574192ab79a904a93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb428a301295cbf6dce99534a735d9c') in 0.026236 seconds
+  Import took 0.087873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.415850 seconds.
+  path: Assets/Scenes/Nivel 3.unity
+  artifactKey: Guid(c3b15021871d51e498fb088feb38fd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel 3.unity using Guid(c3b15021871d51e498fb088feb38fd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9420ed8c0b579b66761f0806f6de82e0') in 0.023329 seconds
+  Import took 0.078153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.260158 seconds.
+  path: Assets/Scenes/Jefe Final.unity
+  artifactKey: Guid(57b5c100c9d1f7c45ba463c0234ea500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jefe Final.unity using Guid(57b5c100c9d1f7c45ba463c0234ea500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192f1bae32dcdd980436ead235641a99') in 0.027933 seconds
+  Import took 0.368102 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
