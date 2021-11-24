@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class HudManager : MonoBehaviour
 {
     public GameObject menuPausa, player, menuOpciones, menuInicio, creditos;
-    public RespawnPersonaje datosPlayer;
     private bool permitirEscape = true;
 
     // Boton de jugar en el menu principal
@@ -54,7 +53,7 @@ public class HudManager : MonoBehaviour
     // Boton de guardar
     public void Guardar()
     {
-        datosPlayer.GuardarDatos();
+        player.GetComponent<RespawnPersonaje>().GuardarDatos();
     }
     
     // Boton para reiniciar nivel
@@ -68,8 +67,8 @@ public class HudManager : MonoBehaviour
         Time.timeScale = 1;
         menuPausa.SetActive(false);
         player.transform.position = new Vector2(0, 0);
-        datosPlayer.life = 5;
-        datosPlayer.ControladorVida();
+        player.GetComponent<RespawnPersonaje>().life = 5;
+        player.GetComponent<RespawnPersonaje>().ControladorVida();
     }
 
     // Boton para ir al menu principal
@@ -90,7 +89,7 @@ public class HudManager : MonoBehaviour
     // Boton de cargar
     public void Cargar()
     {
-        datosPlayer.CargarDatos();
+        player.GetComponent<RespawnPersonaje>().CargarDatos();
     }
     
     // Boton para abrir las opciones

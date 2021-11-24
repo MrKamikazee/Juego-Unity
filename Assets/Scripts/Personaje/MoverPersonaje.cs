@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor.Audio;
+using UnityEngine.SceneManagement;
 
 public class MoverPersonaje : MonoBehaviour
 {
     [Header("General Variables")]
     public Rigidbody2D rb;
     public Animator animator;
+    public int nivel;
 
     [Header("Move Mechanics")] 
     public float speed; 
@@ -25,6 +27,7 @@ public class MoverPersonaje : MonoBehaviour
     public bool tocandoPared;
     private bool tocandoParedDer = false, tocandoParedIzq = false;
     public float velocidadDeslizarPared = 0.80f;
+    
     [Header("sonidos")] 
     public AudioSource clipSalto;
 
@@ -156,6 +159,25 @@ public class MoverPersonaje : MonoBehaviour
             canDoubleJump = true;
             tocandoPared = true;
             tocandoParedIzq = true;
+        }
+
+        if (other.CompareTag("Finish"))
+        {
+            switch (nivel)
+            {
+                case 1:
+                    SceneManager.LoadScene("Nivel 1");
+                    break;
+                case 2:
+                    SceneManager.LoadScene("Nivel 2");
+                    break;
+                case 3:
+                    SceneManager.LoadScene("Nivel 3");
+                    break;
+                case 4:
+                    SceneManager.LoadScene("Jefe Final");
+                    break;
+            }
         }
     }
 

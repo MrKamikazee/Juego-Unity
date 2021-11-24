@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: ab07be01e95d1e944a085a852df9a13b
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: b94e70c791b319b47b687aae0298e88d
+  - enabled: 1
     path: Assets/Scenes/Nivel 1.unity
     guid: 4fd55f710578bf6489d25e1c7bef1d58
   - enabled: 1
@@ -18,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel 3.unity
     guid: c3b15021871d51e498fb088feb38fd03
   - enabled: 1
-    path: Assets/Scenes/Escenarios de pruebas/PruebasGary.unity
-    guid: 4ce5c258a11e5c942bb98c121f1567f2
+    path: Assets/Scenes/Jefe Final.unity
+    guid: 57b5c100c9d1f7c45ba463c0234ea500
   - enabled: 1
     path: Assets/Scenes/Escenarios de pruebas/PruebasMartin.unity
     guid: 48e838b1e0ae532498ef6af49a1b6a00
