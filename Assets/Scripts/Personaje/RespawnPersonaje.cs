@@ -14,6 +14,7 @@ public class RespawnPersonaje : MonoBehaviour
 
     private void Start()
     {
+        transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
         life = vida.Length;
         if (continuarLVL)
         {
@@ -61,7 +62,7 @@ public class RespawnPersonaje : MonoBehaviour
         
         if(life < 1)
         {
-            transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
+            transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
             life = 5;
             ControladorVida();
             ResetearCheckpoint();
