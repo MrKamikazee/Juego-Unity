@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.Audio;
 
 public class MoverPersonaje : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class MoverPersonaje : MonoBehaviour
     public bool tocandoPared;
     private bool tocandoParedDer = false, tocandoParedIzq = false;
     public float velocidadDeslizarPared = 0.80f;
+    [Header("sonidos")] 
+    public AudioSource clipSalto;
 
     void Start()
     {
@@ -61,6 +64,11 @@ public class MoverPersonaje : MonoBehaviour
         {
             animator.SetBool("correr",false);
         }
+
+        if (tocandoPared == true)
+        {
+            animator.Play("pared");
+        }
     }
 
     void Update()
@@ -72,15 +80,28 @@ public class MoverPersonaje : MonoBehaviour
             {
                 canDoubleJump = true;
                 Jump();
+                clipSalto.Play();
+                
             }
             if (canDoubleJump && !isGrounded)
             {
                 //rb.velocity = Vector2.up * doubleJumpSpeed;
                 canDoubleJump = false;
                 Jump();
+                clipSalto.Play();
             }
         }
+            // animaciones
+        if (isGrounded == false)
+        {
+            animator.SetBool("saltar", true);
+            animator.SetBool("correr", false);
+        }
 
+        if (isGrounded == true)
+        {
+            animator.SetBool("saltar", false);
+        }
         if (!isGrounded && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultipler + 1) * Time.deltaTime;
