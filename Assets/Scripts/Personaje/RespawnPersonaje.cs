@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class RespawnPersonaje : MonoBehaviour
 {
     private float checkPointPositionX, checkPointPositionY, posX, posY;
-    public GameObject[] vida;
+    public GameObject[] vida, checkpoint;
     public int life;
     private bool continuarLVL = true;
     public Transform posInicial;
@@ -62,10 +62,8 @@ public class RespawnPersonaje : MonoBehaviour
         
         if(life < 1)
         {
-            transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
-            life = 5;
+            ReiniciarNivel();
             ControladorVida();
-            ResetearCheckpoint();
         }
         else
         {
@@ -86,6 +84,18 @@ public class RespawnPersonaje : MonoBehaviour
         }
     }
 
+    public void ReiniciarNivel()
+    {
+        transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
+        life = 5;
+        for (int i = 0; i < checkpoint.Length; i += 2)
+        {
+            checkpoint[i].gameObject.SetActive(true);
+            checkpoint[i + 1].gameObject.SetActive(false);
+        }
+        ResetearCheckpoint();
+    }
+    
     private void ResetearCheckpoint()
     {
         PlayerPrefs.DeleteKey("checkPointPositionX");
@@ -101,6 +111,8 @@ public class RespawnPersonaje : MonoBehaviour
             {
                 ControladorVida();
                 transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
+                
+                ResetearCheckpoint();
             }
             else
             {
