@@ -25,11 +25,16 @@ public class RespawnPersonaje : MonoBehaviour
         }
         if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
         {
-            transform.position = (new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"),
-                PlayerPrefs.GetFloat("checkPointPositionY")));
+            TPCheckPoint();
         }
     }
 
+    public void TPCheckPoint()
+    {
+        transform.position = (new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"),
+            PlayerPrefs.GetFloat("checkPointPositionY")));
+    }
+    
     public void GuardarDatos()
     {
         PlayerPrefs.SetFloat("posX", transform.position.x);
@@ -86,7 +91,6 @@ public class RespawnPersonaje : MonoBehaviour
 
     public void ReiniciarNivel()
     {
-        transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
         life = 5;
         for (int i = 0; i < checkpoint.Length; i += 2)
         {
@@ -94,6 +98,7 @@ public class RespawnPersonaje : MonoBehaviour
             checkpoint[i + 1].gameObject.SetActive(false);
         }
         ResetearCheckpoint();
+        transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
     }
     
     private void ResetearCheckpoint()
@@ -110,13 +115,12 @@ public class RespawnPersonaje : MonoBehaviour
             if (life != 0)
             {
                 ControladorVida();
-                transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY"));
-                
-                ResetearCheckpoint();
+                TPCheckPoint();
             }
             else
             {
                 ControladorVida();
+                ResetearCheckpoint();
             }
         }
         else

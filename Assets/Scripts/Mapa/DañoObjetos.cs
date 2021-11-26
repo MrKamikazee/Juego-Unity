@@ -10,6 +10,7 @@ public class DañoObjetos : MonoBehaviour
         if (other.transform.CompareTag("Player"))
         {
             other.transform.GetComponent<RespawnPersonaje>().PlayerDamaged();
+            other.transform.GetComponent<RespawnPersonaje>().TPCheckPoint();
         }
     }
 }

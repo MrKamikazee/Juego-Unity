@@ -2145,6 +2145,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 40.72
       objectReference: {fileID: 0}
+    - target: {fileID: 2221509750133699367, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
+      propertyPath: m_Size.x
+      value: 380.50613
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221509750133699367, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
+      propertyPath: m_Offset.x
+      value: 170.50148
+      objectReference: {fileID: 0}
     - target: {fileID: 2221509750976015274, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2192,6 +2200,14 @@ PrefabInstance:
     - target: {fileID: 2221509750976015275, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
       propertyPath: m_Name
       value: Bordes
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221509751986367132, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
+      propertyPath: m_Size.x
+      value: 380.21457
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221509751986367132, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
+      propertyPath: m_Offset.x
+      value: 172.98055
       objectReference: {fileID: 0}
     - target: {fileID: 2221509751986367133, guid: ca82b204a1181fb49b291fb2732b6345, type: 3}
       propertyPath: tpPersonaje

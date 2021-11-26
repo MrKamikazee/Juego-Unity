@@ -22,7 +22,14 @@ public class HudManager : MonoBehaviour
 
     public void BotonCreditos()
     {
+        menuInicio.SetActive(false);
         creditos.SetActive(true);
+    }
+
+    public void VolverCreditos()
+    {
+        creditos.SetActive(false);
+        menuInicio.SetActive(true);
     }
 
     // Botones en el menu de pausa
@@ -59,16 +66,9 @@ public class HudManager : MonoBehaviour
     // Boton para reiniciar nivel
     public void ReniciarNivel()
     {
-        PlayerPrefs.DeleteKey("checkPointPositionX");
-        PlayerPrefs.DeleteKey("checkPointPositionY");
-        PlayerPrefs.DeleteKey("posX");
-        PlayerPrefs.DeleteKey("posY");
-        PlayerPrefs.DeleteKey("vidas");
         Time.timeScale = 1;
         menuPausa.SetActive(false);
-        player.transform.position = new Vector2(0, 0);
-        player.GetComponent<RespawnPersonaje>().life = 5;
-        player.GetComponent<RespawnPersonaje>().ControladorVida();
+        player.GetComponent<RespawnPersonaje>().ReiniciarNivel();
     }
 
     // Boton para ir al menu principal
