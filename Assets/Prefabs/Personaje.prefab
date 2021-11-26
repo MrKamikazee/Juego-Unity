@@ -150,7 +150,7 @@ MonoBehaviour:
   rb: {fileID: 7618795218438475401}
   animator: {fileID: 7618795218438475404}
   nivel: 0
-  speed: 10
+  speed: 8
   velX: 0
   velY: 0
   SpriteRenderer: {fileID: 7618795218438475400}

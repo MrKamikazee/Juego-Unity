@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlataformaMovil : MonoBehaviour
 {
     public GameObject plataformaMovil;
+    [Range(0,5)]
     public float velocidadPlataformaMovil;
     public Transform puntoDeInicio, puntoDeLlegada;
     private Vector3 moverHacia;
