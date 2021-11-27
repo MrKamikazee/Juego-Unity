@@ -56,19 +56,13 @@ public class HudManager : MonoBehaviour
         Time.timeScale = 1;
         menuPausa.SetActive(false);
     }
-    
-    // Boton de guardar
-    public void Guardar()
-    {
-        player.GetComponent<RespawnPersonaje>().GuardarDatos();
-    }
-    
+
     // Boton para reiniciar nivel
     public void ReniciarNivel()
     {
         Time.timeScale = 1;
         menuPausa.SetActive(false);
-        player.GetComponent<RespawnPersonaje>().ReiniciarNivel();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     // Boton para ir al menu principal
@@ -81,17 +75,12 @@ public class HudManager : MonoBehaviour
     // Boton para salir del juego
     public void SalirJuego()
     {
+        PlayerPrefs.DeleteAll();
         Application.Quit();
         Time.timeScale = 1;
     }
     
     // Botones generales
-    // Boton de cargar
-    public void Cargar()
-    {
-        player.GetComponent<RespawnPersonaje>().CargarDatos();
-    }
-    
     // Boton para abrir las opciones
     public void Opciones()
     {

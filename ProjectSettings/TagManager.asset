@@ -8,6 +8,7 @@ TagManager:
   - PlataformaMovil
   - ParedDerecha
   - ParedIzquierda
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

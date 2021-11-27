@@ -9,64 +9,13 @@ public class RespawnPersonaje : MonoBehaviour
     private float checkPointPositionX, checkPointPositionY, posX, posY;
     public GameObject[] vida;
     public int life;
-    private bool continuarLVL = true;
     public Transform posInicial;
 
     private void Start()
     {
+        ReiniciarCheckpoint();
         transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
-        life = vida.Length;
-        if (continuarLVL)
-        {
-            transform.position = new Vector2(PlayerPrefs.GetFloat("posX"), PlayerPrefs.GetFloat("posY"));
-            life = PlayerPrefs.GetInt("vidas");
-            ControladorVida();
-            continuarLVL = false;
-        }
-        if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
-        {
-            TPCheckPoint();
-        }
-    }
-
-    public void TPCheckPoint()
-    {
-        if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
-        {
-            transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"),
-                PlayerPrefs.GetFloat("checkPointPositionY"));
-        }
-        else
-        {
-            transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
-        }
-        
-    }
-    
-    public void GuardarDatos()
-    {
-        PlayerPrefs.SetFloat("posX", transform.position.x);
-        PlayerPrefs.SetFloat("posY", transform.position.y);
-        PlayerPrefs.DeleteKey("checkPointPositionX");
-        PlayerPrefs.DeleteKey("checkPointPositionY");
-        PlayerPrefs.SetString("sceneName", SceneManager.GetActiveScene().name);
-        PlayerPrefs.SetInt("vidas", life);
-    }
-
-    public void CargarDatos()
-    {
-        SceneManager.LoadScene(PlayerPrefs.GetString("sceneName"));
-    }
-
-    public void ReachedCheckPonit(float x, float y)
-    {
-        PlayerPrefs.SetFloat("checkPointPositionX", x);
-        PlayerPrefs.SetFloat("checkPointPositionY", y);
-    }
-    
-    public void PlayerDamaged()
-    {
-        life--;
+        life = vida.Length + 1;
         ControladorVida();
     }
 
@@ -75,8 +24,8 @@ public class RespawnPersonaje : MonoBehaviour
         
         if(life < 1)
         {
-            ReiniciarNivel();
-            ControladorVida();
+            ReiniciarCheckpoint();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         else
         {
@@ -97,19 +46,12 @@ public class RespawnPersonaje : MonoBehaviour
         }
     }
 
-    public void ReiniciarNivel()
-    {
-        life = 5;
-        ResetearCheckpoint();
-        transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
-    }
-    
-    private void ResetearCheckpoint()
+    public void ReiniciarCheckpoint()
     {
         PlayerPrefs.DeleteKey("checkPointPositionX");
         PlayerPrefs.DeleteKey("checkPointPositionY");
     }
-    
+
     public void FinCaida()
     {
         if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
@@ -123,7 +65,6 @@ public class RespawnPersonaje : MonoBehaviour
             else
             {
                 ControladorVida();
-                ResetearCheckpoint();
             }
         }
         else
@@ -133,4 +74,31 @@ public class RespawnPersonaje : MonoBehaviour
             transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
         }
     }
+    
+    public void TPCheckPoint()
+    {
+        if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
+        {
+            transform.position = new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"),
+                PlayerPrefs.GetFloat("checkPointPositionY"));
+        }
+        else
+        {
+            transform.position = new Vector2(posInicial.position.x, posInicial.position.y);
+        }
+        
+    }
+
+    public void ReachedCheckPonit(float x, float y)
+    {
+        PlayerPrefs.SetFloat("checkPointPositionX", x);
+        PlayerPrefs.SetFloat("checkPointPositionY", y);
+    }
+    
+    public void PlayerDamaged()
+    {
+        life--;
+        ControladorVida();
+    }
+
 }
