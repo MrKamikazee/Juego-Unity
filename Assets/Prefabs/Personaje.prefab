@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7618795218438475403}
   - component: {fileID: 7618795218438475400}
-  - component: {fileID: 5910510458257234628}
+  - component: {fileID: 8747602293839561178}
   - component: {fileID: 7618795218438475401}
   - component: {fileID: 7618795218438475406}
   - component: {fileID: 7618795218438475407}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ac1afed60a6436645823e3f818231e9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -88,8 +88,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5910510458257234628
-BoxCollider2D:
+--- !u!70 &8747602293839561178
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -101,19 +101,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.82826614, y: -0.92255306}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 30.000002, y: 30.000002}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 9.092562, y: 27.221495}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.37854972, y: -1.686224}
+  m_Size: {x: 6.066151, y: 25.731642}
+  m_Direction: 0
 --- !u!50 &7618795218438475401
 Rigidbody2D:
   serializedVersion: 4
@@ -150,7 +140,7 @@ MonoBehaviour:
   rb: {fileID: 7618795218438475401}
   animator: {fileID: 7618795218438475404}
   nivel: 0
-  speed: 8
+  speed: 6
   velX: 0
   velY: 0
   SpriteRenderer: {fileID: 7618795218438475400}
@@ -176,13 +166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  checkpoint:
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

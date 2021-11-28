@@ -13,6 +13,11 @@ public class CheckPoint : MonoBehaviour
         {
             other.GetComponent<RespawnPersonaje>().ReachedCheckPonit(transform.position.x, transform.position.y);
             GameObject checkpointActive = Instantiate(checkpoint, transform.position, transform.rotation);
+            if (other.GetComponent<RespawnPersonaje>().life < (other.GetComponent<RespawnPersonaje>().vida.Length + 1))
+            {
+                other.GetComponent<RespawnPersonaje>().life++;
+                other.GetComponent<RespawnPersonaje>().ControladorVida();
+            }
             gameObject.SetActive(false);
         }
     }
