@@ -29,7 +29,7 @@ public class RespawnPersonaje : MonoBehaviour
         }
         else
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < (vida.Length + 1); i++)
             {
                 if (life <= i)
                 {
@@ -37,9 +37,9 @@ public class RespawnPersonaje : MonoBehaviour
                 }
             }
         } 
-        if (life == 5)
+        if (life == (vida.Length + 1))
         {
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < vida.Length; i++)
             {
                 vida[i].gameObject.SetActive(true);
             }
