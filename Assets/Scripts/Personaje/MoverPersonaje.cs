@@ -82,7 +82,7 @@ public class MoverPersonaje : MonoBehaviour
             {
                 canDoubleJump = true;
                 Jump();
-                //clipSalto.Play();
+                clipSalto.Play();
                 
             }
             if (canDoubleJump && !isGrounded)
@@ -90,7 +90,7 @@ public class MoverPersonaje : MonoBehaviour
                 //rb.velocity = Vector2.up * doubleJumpSpeed;
                 canDoubleJump = false;
                 Jump();
-                //clipSalto.Play();
+                clipSalto.Play();
             }
         }
             // animaciones
