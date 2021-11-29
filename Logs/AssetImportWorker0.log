@@ -270,3 +270,132 @@ Received Import Request.
 Start importing Assets/Scenes/Nivel 1.unity using Guid(4fd55f710578bf6489d25e1c7bef1d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44b1e9519cc2565be30e58b4eeebbcc') in 0.012920 seconds
   Import took 0.074639 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2319.124718 seconds.
+  path: Assets/Scenes/Nivel 3.unity
+  artifactKey: Guid(c3b15021871d51e498fb088feb38fd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel 3.unity using Guid(c3b15021871d51e498fb088feb38fd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd077445501471106a5ba3e5a8f59a00') in 0.011530 seconds
+  Import took 0.032190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.741883 seconds.
+  path: Assets/Sprites/JefeFinal
+  artifactKey: Guid(9bbf86dc6771dca41a298bb0e8af617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal using Guid(9bbf86dc6771dca41a298bb0e8af617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d94957871ce4dadf70795d82f04f2ad') in 0.008833 seconds
+  Import took 0.091757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/JefeFinal/jefe_final.png
+  artifactKey: Guid(1d6b0064cd32c064b90a33c161a821cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/jefe_final.png using Guid(1d6b0064cd32c064b90a33c161a821cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8e38f91f14461d00ca5bdc5c015eaa') in 0.154997 seconds
+  Import took 0.187357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/JefeFinal/techo_Lvl_Boss.png
+  artifactKey: Guid(2f6981f0b01696e408fb7930a0aba703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/techo_Lvl_Boss.png using Guid(2f6981f0b01696e408fb7930a0aba703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a71d30ca4fb5b4fa3ff4f8088597021') in 0.023106 seconds
+  Import took 0.046777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sprites/JefeFinal/fondo_lvl_Boss.png
+  artifactKey: Guid(3a188d631f0e18640a8989e17f952a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/fondo_lvl_Boss.png using Guid(3a188d631f0e18640a8989e17f952a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6735ca1a782d7418bef5c45d0e4aea5') in 0.027164 seconds
+  Import took 0.044658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/JefeFinal/jefe_final.psd
+  artifactKey: Guid(85224546a350465468d0c18ebc569816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/jefe_final.psd using Guid(85224546a350465468d0c18ebc569816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaa598ce4be4d66ce7324771f658404') in 0.079107 seconds
+  Import took 0.114411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sprites/JefeFinal/fondo_lvl_Boss.png
+  artifactKey: Guid(3a188d631f0e18640a8989e17f952a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/fondo_lvl_Boss.png using Guid(3a188d631f0e18640a8989e17f952a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6735ca1a782d7418bef5c45d0e4aea5') in 0.016434 seconds
+  Import took 0.051807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprites/JefeFinal/fondo_pidra_lvl_Boss.png
+  artifactKey: Guid(263a04e1b6b044c48887676e1d5fd6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/fondo_pidra_lvl_Boss.png using Guid(263a04e1b6b044c48887676e1d5fd6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984b41eb18649d9affb46b1fa97691d9') in 0.026285 seconds
+  Import took 0.035172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/JefeFinal/luz_Lvl_Boss.png
+  artifactKey: Guid(a8842c32a12e7d34a94b41c8287ac00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/luz_Lvl_Boss.png using Guid(a8842c32a12e7d34a94b41c8287ac00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78615d2cd91460e608240e7bec1a32a9') in 0.016880 seconds
+  Import took 0.024020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/JefeFinal/jefe_final_enojado_atacando.png
+  artifactKey: Guid(3f28226360c3f014cbb0c4521a59febb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/jefe_final_enojado_atacando.png using Guid(3f28226360c3f014cbb0c4521a59febb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04b630172f36312ade84c6eef46264f') in 0.131473 seconds
+  Import took 0.154803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 372.835358 seconds.
+  path: Assets/Sprites/JefeFinal/jefe_final.png
+  artifactKey: Guid(1d6b0064cd32c064b90a33c161a821cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/jefe_final.png using Guid(1d6b0064cd32c064b90a33c161a821cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c2b3f0f985748d544b4c046ad335d3') in 0.088876 seconds
+  Import took 0.137591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015564 seconds.
+  path: Assets/Sprites/JefeFinal/jefe_final.png
+  artifactKey: Guid(1d6b0064cd32c064b90a33c161a821cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/jefe_final.png using Guid(1d6b0064cd32c064b90a33c161a821cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c2b3f0f985748d544b4c046ad335d3') in 0.073066 seconds
+  Import took 0.098366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.550021 seconds.
+  path: Assets/Sprites/JefeFinal/luz_Lvl_Boss.png
+  artifactKey: Guid(a8842c32a12e7d34a94b41c8287ac00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/JefeFinal/luz_Lvl_Boss.png using Guid(a8842c32a12e7d34a94b41c8287ac00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debdc1021fca187b78efb415ebb4cd55') in 0.015742 seconds
+  Import took 0.030769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 199.274833 seconds.
+  path: Assets/Scenes/Jefe Final.unity
+  artifactKey: Guid(57b5c100c9d1f7c45ba463c0234ea500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jefe Final.unity using Guid(57b5c100c9d1f7c45ba463c0234ea500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54104d036e7595642e99e901ed44d138') in 0.006881 seconds
+  Import took 0.053568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 525.605567 seconds.
+  path: Assets/Scenes/Nivel 2.unity
+  artifactKey: Guid(51d230b29dfc7574192ab79a904a93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel 2.unity using Guid(51d230b29dfc7574192ab79a904a93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aced860ffded91d36213970335c25457') in 0.008637 seconds
+  Import took 0.050120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.555152 seconds.
+  path: Assets/Scenes/Nivel 1.unity
+  artifactKey: Guid(4fd55f710578bf6489d25e1c7bef1d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel 1.unity using Guid(4fd55f710578bf6489d25e1c7bef1d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b58bd8e0377693904e2ab686863ac1') in 0.007766 seconds
+  Import took 0.025107 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
