@@ -100,4 +100,15 @@ public class RespawnPersonaje : MonoBehaviour
         life--;
         ControladorVida();
     }
+
+    public void SumarVida()
+    {
+        Debug.Log(life);
+        life++;
+        Debug.Log(life);
+        for (int i = 1; i <= life - 1; i++)
+        {
+            vida[i - 1].gameObject.SetActive(true);
+        }
+    }
 }
