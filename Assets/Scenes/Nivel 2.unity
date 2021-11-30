@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 6438316}
   - component: {fileID: 6438319}
   m_Layer: 0
-  m_Name: Pinchos (50)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1294,7 +1294,7 @@ GameObject:
   - component: {fileID: 21100458}
   - component: {fileID: 21100461}
   m_Layer: 0
-  m_Name: Pinchos (29)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2063,7 +2063,7 @@ GameObject:
   - component: {fileID: 60822729}
   - component: {fileID: 60822732}
   m_Layer: 0
-  m_Name: Pinchos (46)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3020,7 +3020,7 @@ GameObject:
   - component: {fileID: 98641872}
   - component: {fileID: 98641875}
   m_Layer: 0
-  m_Name: Pinchos (40)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3503,36 +3503,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &105007133
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 105007134}
-  m_Layer: 0
-  m_Name: Punto de inicio
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &105007134
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105007133}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 427.7, y: 1.215732, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 666412462}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108370446
 GameObject:
   m_ObjectHideFlags: 0
@@ -3547,7 +3517,7 @@ GameObject:
   - component: {fileID: 108370448}
   - component: {fileID: 108370451}
   m_Layer: 0
-  m_Name: Pinchos (1)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3765,7 +3735,7 @@ GameObject:
   - component: {fileID: 123247122}
   - component: {fileID: 123247121}
   m_Layer: 0
-  m_Name: Piso nivel Tartaro (2)
+  m_Name: Piso nivel Tartaro
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3785,7 +3755,7 @@ Transform:
   - {fileID: 188081881}
   - {fileID: 100224568}
   m_Father: {fileID: 994994675}
-  m_RootOrder: 57
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &123247121
 BoxCollider2D:
@@ -3989,7 +3959,7 @@ GameObject:
   - component: {fileID: 127265579}
   - component: {fileID: 127265582}
   m_Layer: 0
-  m_Name: Pinchos (41)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4304,36 +4274,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 17.04, y: 5.56}
   m_EdgeRadius: 0
---- !u!1 &137585941
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 137585942}
-  m_Layer: 0
-  m_Name: Puntpo de inicio
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &137585942
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137585941}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 408.8733, y: 10.72172, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 701092440}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &147260983
 GameObject:
   m_ObjectHideFlags: 0
@@ -4348,7 +4288,7 @@ GameObject:
   - component: {fileID: 147260985}
   - component: {fileID: 147260988}
   m_Layer: 0
-  m_Name: Pinchos (55)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5761,7 +5701,7 @@ GameObject:
   - component: {fileID: 178866297}
   - component: {fileID: 178866300}
   m_Layer: 0
-  m_Name: Pinchos (49)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7416,7 +7356,7 @@ GameObject:
   - component: {fileID: 236588454}
   - component: {fileID: 236588457}
   m_Layer: 0
-  m_Name: Pinchos (10)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8076,7 +8016,7 @@ GameObject:
   - component: {fileID: 240176224}
   - component: {fileID: 240176227}
   m_Layer: 0
-  m_Name: Pinchos (60)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8736,7 +8676,7 @@ GameObject:
   - component: {fileID: 253181269}
   - component: {fileID: 253181272}
   m_Layer: 0
-  m_Name: Pinchos (36)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9797,7 +9737,7 @@ GameObject:
   - component: {fileID: 298199272}
   - component: {fileID: 298199275}
   m_Layer: 0
-  m_Name: Pinchos (67)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11724,7 +11664,7 @@ GameObject:
   - component: {fileID: 334195396}
   - component: {fileID: 334195399}
   m_Layer: 0
-  m_Name: Pinchos (45)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11944,7 +11884,7 @@ GameObject:
   - component: {fileID: 336689334}
   - component: {fileID: 336689337}
   m_Layer: 0
-  m_Name: Pinchos (38)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12824,7 +12764,7 @@ GameObject:
   - component: {fileID: 359518705}
   - component: {fileID: 359518708}
   m_Layer: 0
-  m_Name: Pinchos (65)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14868,7 +14808,7 @@ GameObject:
   - component: {fileID: 425552013}
   - component: {fileID: 425552016}
   m_Layer: 0
-  m_Name: Pinchos (15)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16407,7 +16347,7 @@ GameObject:
   - component: {fileID: 453899109}
   - component: {fileID: 453899108}
   m_Layer: 0
-  m_Name: Piso nivel Tartaro (3)
+  m_Name: Piso nivel Tartaro
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16426,7 +16366,7 @@ Transform:
   m_Children:
   - {fileID: 913817950}
   m_Father: {fileID: 994994675}
-  m_RootOrder: 61
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &453899108
 BoxCollider2D:
@@ -16739,7 +16679,7 @@ GameObject:
   - component: {fileID: 460431338}
   - component: {fileID: 460431341}
   m_Layer: 0
-  m_Name: Pinchos (62)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17176,7 +17116,7 @@ GameObject:
   - component: {fileID: 463268904}
   - component: {fileID: 463268905}
   m_Layer: 0
-  m_Name: Plataforma Movil 7
+  m_Name: Plataforma Movil 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17197,7 +17137,7 @@ Transform:
   - {fileID: 1612524119}
   - {fileID: 511410797}
   m_Father: {fileID: 1508084644}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &463268905
 MonoBehaviour:
@@ -19046,7 +18986,7 @@ GameObject:
   - component: {fileID: 498992489}
   - component: {fileID: 498992488}
   m_Layer: 0
-  m_Name: Piso nivel Tartaro (3)
+  m_Name: Piso nivel Tartaro
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19066,7 +19006,7 @@ Transform:
   - {fileID: 407778669}
   - {fileID: 524757637}
   m_Father: {fileID: 994994675}
-  m_RootOrder: 58
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &498992488
 BoxCollider2D:
@@ -19379,7 +19319,7 @@ GameObject:
   - component: {fileID: 506473883}
   - component: {fileID: 506473886}
   m_Layer: 0
-  m_Name: Pinchos (44)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20126,7 +20066,7 @@ GameObject:
   - component: {fileID: 520630461}
   - component: {fileID: 520630464}
   m_Layer: 0
-  m_Name: Pinchos (37)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21063,7 +21003,7 @@ GameObject:
   - component: {fileID: 532326540}
   - component: {fileID: 532326543}
   m_Layer: 0
-  m_Name: Pinchos (59)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23817,7 +23757,7 @@ GameObject:
   - component: {fileID: 578920855}
   - component: {fileID: 578920858}
   m_Layer: 0
-  m_Name: Pinchos (39)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26256,56 +26196,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &666412461
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 666412462}
-  - component: {fileID: 666412463}
-  m_Layer: 0
-  m_Name: Plataforma Movil 4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &666412462
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 666412461}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1888790276}
-  - {fileID: 105007134}
-  - {fileID: 1990803236}
-  m_Father: {fileID: 1508084644}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &666412463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 666412461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 478f558a05c00db4d969342911a9a410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plataformaMovil: {fileID: 1888790273}
-  velocidadPlataformaMovil: 3
-  puntoDeInicio: {fileID: 105007134}
-  puntoDeLlegada: {fileID: 1990803236}
 --- !u!1 &674452401
 GameObject:
   m_ObjectHideFlags: 0
@@ -27467,11 +27357,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700320958}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 305.339, y: 7.167, z: 0}
-  m_LocalScale: {x: 0.05050575, y: 0.2721611, z: 1}
+  m_LocalPosition: {x: 2756.1145, y: -48.873875, z: 0}
+  m_LocalScale: {x: 0.45838556, y: 3.252275, z: 1}
   m_Children: []
-  m_Father: {fileID: 994994675}
-  m_RootOrder: 52
+  m_Father: {fileID: 719981539}
+  m_RootOrder: 142
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &700320960
 MonoBehaviour:
@@ -27879,56 +27769,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &701092439
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 701092440}
-  - component: {fileID: 701092441}
-  m_Layer: 0
-  m_Name: Plataforma Movil 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &701092440
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701092439}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 865025387}
-  - {fileID: 137585942}
-  - {fileID: 1287142097}
-  m_Father: {fileID: 1508084644}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &701092441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701092439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 478f558a05c00db4d969342911a9a410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plataformaMovil: {fileID: 865025384}
-  velocidadPlataformaMovil: 3
-  puntoDeInicio: {fileID: 137585942}
-  puntoDeLlegada: {fileID: 1287142097}
 --- !u!1 &701651655
 GameObject:
   m_ObjectHideFlags: 0
@@ -28163,7 +28003,7 @@ GameObject:
   - component: {fileID: 703014398}
   - component: {fileID: 703014401}
   m_Layer: 0
-  m_Name: Pinchos (13)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28613,7 +28453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703751597}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 4.31, z: 0}
+  m_LocalPosition: {x: -2, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -28633,7 +28473,7 @@ GameObject:
   - component: {fileID: 707908575}
   - component: {fileID: 707908578}
   m_Layer: 0
-  m_Name: Pinchos (61)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29494,6 +29334,11 @@ Transform:
   - {fileID: 854999832}
   - {fileID: 2145206979}
   - {fileID: 1101229006}
+  - {fileID: 1242315158}
+  - {fileID: 921933907}
+  - {fileID: 1942838747}
+  - {fileID: 1864143788}
+  - {fileID: 700320959}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29511,7 +29356,7 @@ GameObject:
   - component: {fileID: 721344814}
   - component: {fileID: 721344817}
   m_Layer: 0
-  m_Name: Pinchos (21)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29951,7 +29796,7 @@ GameObject:
   - component: {fileID: 737454509}
   - component: {fileID: 737454512}
   m_Layer: 0
-  m_Name: Pinchos (5)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31686,7 +31531,7 @@ GameObject:
   - component: {fileID: 787618061}
   - component: {fileID: 787618064}
   m_Layer: 0
-  m_Name: Pinchos (23)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32619,7 +32464,7 @@ GameObject:
   - component: {fileID: 809083124}
   - component: {fileID: 809083127}
   m_Layer: 0
-  m_Name: Pinchos (7)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33059,7 +32904,7 @@ GameObject:
   - component: {fileID: 854999833}
   - component: {fileID: 854999836}
   m_Layer: 0
-  m_Name: Pinchos (68)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33277,7 +33122,7 @@ GameObject:
   - component: {fileID: 859580245}
   - component: {fileID: 859580244}
   m_Layer: 0
-  m_Name: Piso nivel Tartaro (1)
+  m_Name: Piso nivel Tartaro
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33374,115 +33219,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &865025384
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 865025387}
-  - component: {fileID: 865025386}
-  - component: {fileID: 865025385}
-  m_Layer: 0
-  m_Name: Platafomra movil
-  m_TagString: PlataformaMovil
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &865025385
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865025384}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.013476849, y: -0.044967055}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.39, y: 4.16}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 6.285428, y: 4.2196074}
-  m_EdgeRadius: 0
---- !u!212 &865025386
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865025384}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: e2382b4a929acec4daa60a2b5d751f7c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &865025387
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865025384}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 408.87326, y: 10.721724, z: 0}
-  m_LocalScale: {x: 0.61792517, y: 0.3742389, z: 1}
-  m_Children: []
-  m_Father: {fileID: 701092440}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870683121
 GameObject:
   m_ObjectHideFlags: 0
@@ -33717,7 +33453,7 @@ GameObject:
   - component: {fileID: 874171693}
   - component: {fileID: 874171696}
   m_Layer: 0
-  m_Name: Pinchos (35)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36303,7 +36039,7 @@ GameObject:
   - component: {fileID: 917729944}
   - component: {fileID: 917729947}
   m_Layer: 0
-  m_Name: Pinchos (33)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36580,7 +36316,7 @@ GameObject:
   - component: {fileID: 921933908}
   - component: {fileID: 921933911}
   m_Layer: 0
-  m_Name: Pinchos (2)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36593,12 +36329,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921933906}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 293.1553, y: 6.143, z: 0}
-  m_LocalScale: {x: 0.031969424, y: 0.078491256, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2610.522, y: -58.1676, z: 0}
+  m_LocalScale: {x: 0.38202873, y: 0.71237946, z: 1}
   m_Children: []
-  m_Father: {fileID: 994994675}
-  m_RootOrder: 54
+  m_Father: {fileID: 719981539}
+  m_RootOrder: 139
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &921933908
 MonoBehaviour:
@@ -36800,7 +36536,7 @@ GameObject:
   - component: {fileID: 923480377}
   - component: {fileID: 923480380}
   m_Layer: 0
-  m_Name: Pinchos (31)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37020,7 +36756,7 @@ GameObject:
   - component: {fileID: 927503423}
   - component: {fileID: 927503426}
   m_Layer: 0
-  m_Name: Pinchos (22)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37631,7 +37367,7 @@ GameObject:
   - component: {fileID: 957094185}
   - component: {fileID: 957094188}
   m_Layer: 0
-  m_Name: Pinchos (54)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38459,7 +38195,7 @@ GameObject:
   - component: {fileID: 981572549}
   - component: {fileID: 981572552}
   m_Layer: 0
-  m_Name: Pinchos (57)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39227,7 +38963,7 @@ GameObject:
   - component: {fileID: 991561307}
   - component: {fileID: 991561306}
   m_Layer: 0
-  m_Name: Piso nivel Tartaro (5)
+  m_Name: Piso nivel Tartaro
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39247,7 +38983,7 @@ Transform:
   - {fileID: 1454270803}
   - {fileID: 1183635135}
   m_Father: {fileID: 994994675}
-  m_RootOrder: 62
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &991561306
 BoxCollider2D:
@@ -39405,17 +39141,16 @@ Transform:
   - {fileID: 151504333}
   - {fileID: 624081664}
   - {fileID: 859580243}
-  - {fileID: 700320959}
-  - {fileID: 1242315158}
-  - {fileID: 921933907}
-  - {fileID: 1942838747}
-  - {fileID: 1864143788}
   - {fileID: 123247120}
   - {fileID: 498992487}
   - {fileID: 1451266391}
   - {fileID: 2025887245}
   - {fileID: 453899107}
   - {fileID: 991561305}
+  - {fileID: 1410478241}
+  - {fileID: 1687872240}
+  - {fileID: 2079543269}
+  - {fileID: 1085559611}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -40313,7 +40048,7 @@ GameObject:
   - component: {fileID: 1022665804}
   - component: {fileID: 1022665807}
   m_Layer: 0
-  m_Name: Pinchos (52)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40590,7 +40325,7 @@ GameObject:
   - component: {fileID: 1040535638}
   - component: {fileID: 1040535641}
   m_Layer: 0
-  m_Name: Pinchos (51)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41389,7 +41124,7 @@ GameObject:
   - component: {fileID: 1058545786}
   - component: {fileID: 1058545789}
   m_Layer: 0
-  m_Name: Pinchos (6)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41711,7 +41446,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8038153530802140402, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
   m_PrefabInstance: {fileID: 1040841833}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1095078673
+--- !u!1 &1085559610
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41719,48 +41454,107 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1095078674}
-  - component: {fileID: 1095078675}
+  - component: {fileID: 1085559611}
+  - component: {fileID: 1085559613}
+  - component: {fileID: 1085559612}
   m_Layer: 0
-  m_Name: Plataforma Movil 5
-  m_TagString: Untagged
+  m_Name: Plataforma Inmovil
+  m_TagString: PlataformaMovil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1095078674
+--- !u!4 &1085559611
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095078673}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1979834486}
-  - {fileID: 1179482671}
-  - {fileID: 1297586375}
-  m_Father: {fileID: 1508084644}
-  m_RootOrder: 4
+  m_GameObject: {fileID: 1085559610}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 448, y: 10.93, z: 0}
+  m_LocalScale: {x: 0.4164477, y: 0.18859996, z: 1}
+  m_Children: []
+  m_Father: {fileID: 994994675}
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1095078675
-MonoBehaviour:
+--- !u!61 &1085559612
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095078673}
+  m_GameObject: {fileID: 1085559610}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 478f558a05c00db4d969342911a9a410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plataformaMovil: {fileID: 1979834483}
-  velocidadPlataformaMovil: 3
-  puntoDeInicio: {fileID: 1179482671}
-  puntoDeLlegada: {fileID: 1297586375}
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.013476849, y: -0.044967055}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.39, y: 4.16}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.285428, y: 4.2196074}
+  m_EdgeRadius: 0
+--- !u!212 &1085559613
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085559610}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: e2382b4a929acec4daa60a2b5d751f7c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1099430964
 GameObject:
   m_ObjectHideFlags: 0
@@ -41995,7 +41789,7 @@ GameObject:
   - component: {fileID: 1101229007}
   - component: {fileID: 1101229010}
   m_Layer: 0
-  m_Name: Pinchos (70)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42215,7 +42009,7 @@ GameObject:
   - component: {fileID: 1103222466}
   - component: {fileID: 1103222469}
   m_Layer: 0
-  m_Name: Pinchos (53)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42769,7 +42563,7 @@ GameObject:
   - component: {fileID: 1111588664}
   - component: {fileID: 1111588667}
   m_Layer: 0
-  m_Name: Pinchos (17)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42989,7 +42783,7 @@ GameObject:
   - component: {fileID: 1114540301}
   - component: {fileID: 1114540304}
   m_Layer: 0
-  m_Name: Pinchos (58)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43242,7 +43036,7 @@ GameObject:
   - component: {fileID: 1122500453}
   - component: {fileID: 1122500456}
   m_Layer: 0
-  m_Name: Pinchos (18)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43462,7 +43256,7 @@ GameObject:
   - component: {fileID: 1125586604}
   - component: {fileID: 1125586607}
   m_Layer: 0
-  m_Name: Pinchos (4)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44358,36 +44152,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1179482670
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1179482671}
-  m_Layer: 0
-  m_Name: Punto de inicio
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1179482671
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179482670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 445.44, y: 10.71673, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1095078674}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1182276233
 GameObject:
   m_ObjectHideFlags: 0
@@ -44900,7 +44664,7 @@ GameObject:
   - component: {fileID: 1230996428}
   - component: {fileID: 1230996431}
   m_Layer: 0
-  m_Name: Pinchos (63)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45780,7 +45544,7 @@ GameObject:
   - component: {fileID: 1242315159}
   - component: {fileID: 1242315162}
   m_Layer: 0
-  m_Name: Pinchos (1)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45793,12 +45557,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242315157}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 306.2564, y: 7.737, z: 0}
-  m_LocalScale: {x: 0.03178259, y: 0.078491256, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2767.0776, y: -43.7006, z: 0}
+  m_LocalScale: {x: 0.3797961, y: 0.71237946, z: 1}
   m_Children: []
-  m_Father: {fileID: 994994675}
-  m_RootOrder: 53
+  m_Father: {fileID: 719981539}
+  m_RootOrder: 138
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1242315159
 MonoBehaviour:
@@ -46992,7 +46756,7 @@ GameObject:
   - component: {fileID: 1272782808}
   - component: {fileID: 1272782811}
   m_Layer: 0
-  m_Name: Pinchos (43)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47321,7 +47085,7 @@ GameObject:
   - component: {fileID: 1277930094}
   - component: {fileID: 1277930097}
   m_Layer: 0
-  m_Name: Pinchos (3)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47747,66 +47511,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1287142096
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1287142097}
-  m_Layer: 0
-  m_Name: Punto de llegada
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1287142097
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287142096}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 408.8733, y: 1.215732, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 701092440}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1297586374
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1297586375}
-  m_Layer: 0
-  m_Name: Punto de llegada
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1297586375
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297586374}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 445.44, y: 1.215732, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1095078674}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1303490845
 GameObject:
   m_ObjectHideFlags: 0
@@ -48481,7 +48185,7 @@ GameObject:
   - component: {fileID: 1315866135}
   - component: {fileID: 1315866138}
   m_Layer: 0
-  m_Name: Pinchos (26)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49214,7 +48918,7 @@ GameObject:
   - component: {fileID: 1375872861}
   - component: {fileID: 1375872864}
   m_Layer: 0
-  m_Name: Pinchos (25)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50303,6 +50007,115 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1410478240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410478241}
+  - component: {fileID: 1410478243}
+  - component: {fileID: 1410478242}
+  m_Layer: 0
+  m_Name: Plataforma Inmovil
+  m_TagString: PlataformaMovil
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1410478241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410478240}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 412, y: 10.93, z: 0}
+  m_LocalScale: {x: 0.4164477, y: 0.18859996, z: 1}
+  m_Children: []
+  m_Father: {fileID: 994994675}
+  m_RootOrder: 58
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1410478242
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410478240}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.013476849, y: -0.044967055}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.39, y: 4.16}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.285428, y: 4.2196074}
+  m_EdgeRadius: 0
+--- !u!212 &1410478243
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410478240}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: e2382b4a929acec4daa60a2b5d751f7c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1410908251
 GameObject:
   m_ObjectHideFlags: 0
@@ -50317,7 +50130,7 @@ GameObject:
   - component: {fileID: 1410908253}
   - component: {fileID: 1410908256}
   m_Layer: 0
-  m_Name: Pinchos (27)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51064,7 +50877,7 @@ GameObject:
   - component: {fileID: 1424930476}
   - component: {fileID: 1424930479}
   m_Layer: 0
-  m_Name: Pinchos (16)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51944,7 +51757,7 @@ GameObject:
   - component: {fileID: 1449951046}
   - component: {fileID: 1449951049}
   m_Layer: 0
-  m_Name: Pinchos (2)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52182,7 +51995,7 @@ Transform:
   - {fileID: 1648484982}
   - {fileID: 1883487449}
   m_Father: {fileID: 994994675}
-  m_RootOrder: 59
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1451266392
 BoxCollider2D:
@@ -53121,9 +52934,6 @@ Transform:
   m_Children:
   - {fileID: 716681051}
   - {fileID: 1753878459}
-  - {fileID: 701092440}
-  - {fileID: 666412462}
-  - {fileID: 1095078674}
   - {fileID: 1911442108}
   - {fileID: 463268904}
   m_Father: {fileID: 0}
@@ -53143,7 +52953,7 @@ GameObject:
   - component: {fileID: 1511421237}
   - component: {fileID: 1511421240}
   m_Layer: 0
-  m_Name: Pinchos (32)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53583,7 +53393,7 @@ GameObject:
   - component: {fileID: 1514717276}
   - component: {fileID: 1514717279}
   m_Layer: 0
-  m_Name: Pinchos (28)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54300,7 +54110,7 @@ GameObject:
   - component: {fileID: 1532654074}
   - component: {fileID: 1532654077}
   m_Layer: 0
-  m_Name: Pinchos (8)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55262,7 +55072,7 @@ GameObject:
   - component: {fileID: 1565123370}
   - component: {fileID: 1565123373}
   m_Layer: 0
-  m_Name: Pinchos (12)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55539,7 +55349,7 @@ GameObject:
   - component: {fileID: 1587370215}
   - component: {fileID: 1587370218}
   m_Layer: 0
-  m_Name: Pinchos (9)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57402,7 +57212,7 @@ GameObject:
   - component: {fileID: 1639450480}
   - component: {fileID: 1639450483}
   m_Layer: 0
-  m_Name: Pinchos (42)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57679,7 +57489,7 @@ GameObject:
   - component: {fileID: 1650115319}
   - component: {fileID: 1650115322}
   m_Layer: 0
-  m_Name: Pinchos (56)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58219,6 +58029,115 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1687872239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687872240}
+  - component: {fileID: 1687872242}
+  - component: {fileID: 1687872241}
+  m_Layer: 0
+  m_Name: Plataforma Inmovil
+  m_TagString: PlataformaMovil
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1687872240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687872239}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 425, y: 10.93, z: 0}
+  m_LocalScale: {x: 0.4164477, y: 0.18859996, z: 1}
+  m_Children: []
+  m_Father: {fileID: 994994675}
+  m_RootOrder: 59
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1687872241
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687872239}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.013476849, y: -0.044967055}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.39, y: 4.16}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.285428, y: 4.2196074}
+  m_EdgeRadius: 0
+--- !u!212 &1687872242
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687872239}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: e2382b4a929acec4daa60a2b5d751f7c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1690844312
 GameObject:
   m_ObjectHideFlags: 0
@@ -58453,7 +58372,7 @@ GameObject:
   - component: {fileID: 1697150425}
   - component: {fileID: 1697150428}
   m_Layer: 0
-  m_Name: Pinchos (64)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58893,7 +58812,7 @@ GameObject:
   - component: {fileID: 1702592371}
   - component: {fileID: 1702592374}
   m_Layer: 0
-  m_Name: Pinchos (19)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59113,7 +59032,7 @@ GameObject:
   - component: {fileID: 1706408401}
   - component: {fileID: 1706408404}
   m_Layer: 0
-  m_Name: Pinchos (47)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61480,7 +61399,7 @@ GameObject:
   - component: {fileID: 1779104804}
   - component: {fileID: 1779104807}
   m_Layer: 0
-  m_Name: Pinchos (48)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62798,7 +62717,7 @@ GameObject:
   - component: {fileID: 1799036941}
   - component: {fileID: 1799036944}
   m_Layer: 0
-  m_Name: Pinchos (14)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64959,7 +64878,7 @@ GameObject:
   - component: {fileID: 1864143789}
   - component: {fileID: 1864143792}
   m_Layer: 0
-  m_Name: Pinchos (4)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64972,12 +64891,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864143787}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 264.3381, y: 2.969, z: 0}
-  m_LocalScale: {x: 0.034503907, y: 0.078491256, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2266.1614, y: -86.97453, z: 0}
+  m_LocalScale: {x: 0.41231534, y: 0.71237946, z: 1}
   m_Children: []
-  m_Father: {fileID: 994994675}
-  m_RootOrder: 56
+  m_Father: {fileID: 719981539}
+  m_RootOrder: 141
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1864143789
 MonoBehaviour:
@@ -65342,115 +65261,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.495491}
   m_EdgeRadius: 0
---- !u!1 &1888790273
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1888790276}
-  - component: {fileID: 1888790275}
-  - component: {fileID: 1888790274}
-  m_Layer: 0
-  m_Name: Plataforma movil
-  m_TagString: PlataformaMovil
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1888790274
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888790273}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.013476849, y: -0.044967055}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.39, y: 4.16}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 6.285428, y: 4.2196074}
-  m_EdgeRadius: 0
---- !u!212 &1888790275
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888790273}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: e2382b4a929acec4daa60a2b5d751f7c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1888790276
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888790273}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 427.7, y: 1.2157322, z: 0}
-  m_LocalScale: {x: 0.61792517, y: 0.3742389, z: 1}
-  m_Children: []
-  m_Father: {fileID: 666412462}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1891854079
 GameObject:
   m_ObjectHideFlags: 0
@@ -66562,7 +66372,7 @@ GameObject:
   - component: {fileID: 1911442108}
   - component: {fileID: 1911442109}
   m_Layer: 0
-  m_Name: Plataforma Movil 6
+  m_Name: Plataforma Movil 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66583,7 +66393,7 @@ Transform:
   - {fileID: 220429722}
   - {fileID: 579127754}
   m_Father: {fileID: 1508084644}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1911442109
 MonoBehaviour:
@@ -66892,7 +66702,7 @@ GameObject:
   - component: {fileID: 1942838748}
   - component: {fileID: 1942838751}
   m_Layer: 0
-  m_Name: Pinchos (3)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66905,12 +66715,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942838746}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 278.7379, y: 4.558, z: 0}
-  m_LocalScale: {x: 0.03217549, y: 0.078491256, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2438.2366, y: -72.55291, z: 0}
+  m_LocalScale: {x: 0.38449118, y: 0.71237946, z: 1}
   m_Children: []
-  m_Father: {fileID: 994994675}
-  m_RootOrder: 55
+  m_Father: {fileID: 719981539}
+  m_RootOrder: 140
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1942838748
 MonoBehaviour:
@@ -67223,7 +67033,7 @@ GameObject:
   - component: {fileID: 1944444254}
   - component: {fileID: 1944444257}
   m_Layer: 0
-  m_Name: Pinchos (34)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67500,7 +67310,7 @@ GameObject:
   - component: {fileID: 1947885129}
   - component: {fileID: 1947885132}
   m_Layer: 0
-  m_Name: Pinchos (66)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68643,115 +68453,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1979834483
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1979834486}
-  - component: {fileID: 1979834485}
-  - component: {fileID: 1979834484}
-  m_Layer: 0
-  m_Name: Plataforma movil
-  m_TagString: PlataformaMovil
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1979834484
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979834483}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.013476849, y: -0.044967055}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.39, y: 4.16}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 6.285428, y: 4.2196074}
-  m_EdgeRadius: 0
---- !u!212 &1979834485
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979834483}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: e2382b4a929acec4daa60a2b5d751f7c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1979834486
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979834483}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 445.44, y: 10.716735, z: 0}
-  m_LocalScale: {x: 0.61792517, y: 0.3742389, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1095078674}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1981803361
 GameObject:
   m_ObjectHideFlags: 0
@@ -68766,7 +68467,7 @@ GameObject:
   - component: {fileID: 1981803363}
   - component: {fileID: 1981803366}
   m_Layer: 0
-  m_Name: Pinchos (11)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69412,36 +69113,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1990803235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1990803236}
-  m_Layer: 0
-  m_Name: Punto de llegada
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1990803236
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990803235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 427.7, y: 10.72172, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 666412462}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2000491583
 GameObject:
   m_ObjectHideFlags: 0
@@ -70282,7 +69953,7 @@ GameObject:
   - component: {fileID: 2024570068}
   - component: {fileID: 2024570071}
   m_Layer: 0
-  m_Name: Pinchos (20)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70500,7 +70171,7 @@ GameObject:
   - component: {fileID: 2025887247}
   - component: {fileID: 2025887246}
   m_Layer: 0
-  m_Name: Piso nivel Tartaro (2)
+  m_Name: Piso nivel Tartaro
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70520,7 +70191,7 @@ Transform:
   - {fileID: 1523824018}
   - {fileID: 1863558115}
   m_Father: {fileID: 994994675}
-  m_RootOrder: 60
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2025887246
 BoxCollider2D:
@@ -71330,7 +71001,7 @@ GameObject:
   - component: {fileID: 2072054273}
   - component: {fileID: 2072054276}
   m_Layer: 0
-  m_Name: Pinchos (30)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71536,6 +71207,115 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &2079543268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2079543269}
+  - component: {fileID: 2079543271}
+  - component: {fileID: 2079543270}
+  m_Layer: 0
+  m_Name: Plataforma Inmovil
+  m_TagString: PlataformaMovil
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2079543269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079543268}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 437, y: 10.93, z: 0}
+  m_LocalScale: {x: 0.4164477, y: 0.18859996, z: 1}
+  m_Children: []
+  m_Father: {fileID: 994994675}
+  m_RootOrder: 60
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2079543270
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079543268}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.013476849, y: -0.044967055}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.39, y: 4.16}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.285428, y: 4.2196074}
+  m_EdgeRadius: 0
+--- !u!212 &2079543271
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079543268}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: e2382b4a929acec4daa60a2b5d751f7c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2080119882
 GameObject:
   m_ObjectHideFlags: 0
@@ -71770,7 +71550,7 @@ GameObject:
   - component: {fileID: 2096782207}
   - component: {fileID: 2096782210}
   m_Layer: 0
-  m_Name: Pinchos (24)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74136,7 +73916,7 @@ GameObject:
   - component: {fileID: 2145206980}
   - component: {fileID: 2145206983}
   m_Layer: 0
-  m_Name: Pinchos (69)
+  m_Name: Pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
