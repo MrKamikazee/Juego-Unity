@@ -24,12 +24,14 @@ public class BolaController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.transform.CompareTag("Player"))
         {
             other.transform.GetComponent<RespawnPersonaje>().PlayerDamaged();
             other.transform.GetComponent<RespawnPersonaje>().TPCheckPoint();
+            Destroy(gameObject);
+            // clipDaño.Play();
         }
     }
 }

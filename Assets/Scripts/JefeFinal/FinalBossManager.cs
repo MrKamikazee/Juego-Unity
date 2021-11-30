@@ -20,8 +20,9 @@ public class FinalBossManager : MonoBehaviour
     {
         while (controlador)
         {
+            yield return new WaitForSeconds(2 - (GameManager.instance.semillas * 0.5f));
             GameObject bolaGo = Instantiate(bola, bocaJefe.position, bocaJefe.rotation);
-            yield return new WaitForSeconds(4 - (GameManager.instance.semillas * 0.5f));
+            yield return new WaitForSeconds(2 - (GameManager.instance.semillas * 0.5f));
         }
         controlador = true;
     }
