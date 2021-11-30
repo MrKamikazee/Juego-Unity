@@ -9,6 +9,8 @@ TagManager:
   - ParedDerecha
   - ParedIzquierda
   - Bullet
+  - Checkpoint
+  - jefe
   layers:
   - Default
   - TransparentFX
