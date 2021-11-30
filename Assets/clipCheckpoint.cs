@@ -7,7 +7,6 @@ using UnityEngine.Audio;
 public class clipCheckpoint : MonoBehaviour
 {
     public AudioSource clipCheck;
-    public GameObject clipCheckP;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
