@@ -100,5 +100,4 @@ public class RespawnPersonaje : MonoBehaviour
         life--;
         ControladorVida();
     }
-
 }

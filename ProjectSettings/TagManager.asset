@@ -8,7 +8,7 @@ TagManager:
   - PlataformaMovil
   - ParedDerecha
   - ParedIzquierda
-  - Checkpoint
+  - Bullet
   layers:
   - Default
   - TransparentFX

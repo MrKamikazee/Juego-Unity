@@ -10,7 +10,6 @@ public class Semillas : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             GameManager.instance.semillas++;
-            PlayerPrefs.SetInt("semillas", GameManager.instance.semillas);
             gameObject.SetActive(false);
         }
     }

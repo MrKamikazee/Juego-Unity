@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public int semillas = 0;
     public TextMeshProUGUI textoSemillas;
     private Scene escenaActiva;
+    public GameObject player;
 
     private void Awake()
     {
