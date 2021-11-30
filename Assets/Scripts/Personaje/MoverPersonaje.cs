@@ -27,7 +27,7 @@ public class MoverPersonaje : MonoBehaviour
     private bool tocandoParedDer = false, tocandoParedIzq = false;
     public float velocidadDeslizarPared = 0.80f;
     
-    [Header("sonidos")] 
+    [Header("Sonidos")] 
     public AudioSource clipSalto;
 
     void Start()
@@ -41,12 +41,12 @@ public class MoverPersonaje : MonoBehaviour
         velX = Input.GetAxisRaw("Horizontal");
         velY = rb.velocity.y;
         // Controla si esta tocando alguna pared
-        if (tocandoParedDer && velX == 1)
+        if (tocandoParedDer && velX > 0)
         {
             velX = 0;
         }
 
-        if (tocandoParedIzq && velX == -1)
+        if (tocandoParedIzq && velX < 0)
         {
             velX = 0;
         }

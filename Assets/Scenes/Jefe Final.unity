@@ -2146,6 +2146,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 394986323669164491, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 394986323669164491, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987397194079994426, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987397194079994426, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987397194079994426, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3691781709222276364, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -2232,6 +2252,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3691781709222276368, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8038153530802140402, guid: 85c59ed0618cfcf499406f6da20fad48, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -17,7 +17,7 @@ public class HudManager : MonoBehaviour
         PlayerPrefs.DeleteKey("posX");
         PlayerPrefs.DeleteKey("posY");
         PlayerPrefs.DeleteKey("vidas");
-        SceneManager.LoadScene("Nivel 1");
+        SceneManager.LoadScene("Tutorial");
     }
 
     public void BotonCreditos()
