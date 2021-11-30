@@ -1,15 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
-using UnityEditor.Audio;
 
 public class BolaController : MonoBehaviour
 {
     public float velocidad;
     private Vector2 error;
-    public AudioSource fuego;
 
     private void Start()
     {

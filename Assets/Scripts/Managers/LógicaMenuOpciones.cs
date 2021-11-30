@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,7 +21,7 @@ public class LógicaMenuOpciones : MonoBehaviour
     {
         LogicaVolumen();
         LogicaPantallaCompleta();
-        RevisarResolutions();
+        //RevisarResolutions();
     }
     
     // Toda la lógica del volumen
@@ -72,7 +70,7 @@ public class LógicaMenuOpciones : MonoBehaviour
         Screen.fullScreen = pantallaCompleta;
     }
     
-    // Toda la lógica del cambio de resoluciones
+    /* Toda la lógica del cambio de resoluciones
     public void RevisarResolutions()
     {
         resoluciones = Screen.resolutions;
@@ -100,5 +98,5 @@ public class LógicaMenuOpciones : MonoBehaviour
         PlayerPrefs.SetInt("numeroResolucion", resolucionesDropDown.value);
         Resolution resolucion = resoluciones[indiceResolucion];
         Screen.SetResolution(resolucion.width, resolucion.height, Screen.fullScreen);
-    }
+    }*/
 }
