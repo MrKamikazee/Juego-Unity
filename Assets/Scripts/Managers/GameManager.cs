@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator Fin()
     {
+        fondoNegro.gameObject.SetActive(true);
         fondoNegro.DOFade(1, 0.5f);
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene("FinalFeliz");

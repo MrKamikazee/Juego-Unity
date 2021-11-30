@@ -21,12 +21,13 @@ public class FinalBossManager : MonoBehaviour
     {
         while (controlador)
         {
-            yield return new WaitForSeconds(2 - (GameManager.instance.semillas * 0.5f));
-            GameObject bolaGo = Instantiate(bola, bocaJefe.position, bocaJefe.rotation);
             Animator.SetBool("Dispara", true);
-            yield return new WaitForSeconds(2 - (GameManager.instance.semillas * 0.5f));
+            yield return new WaitForSeconds(0.5f);
+            GameObject bolaGo = Instantiate(bola, bocaJefe.position, bocaJefe.rotation);
+            yield return new WaitForSeconds(0.5f);
+            Animator.SetBool("Dispara", false);
+            yield return new WaitForSeconds(3 - (GameManager.instance.semillas * 0.5f));
         }
         controlador = true;
-        Animator.SetBool("Dispara", false);
     }
 }
