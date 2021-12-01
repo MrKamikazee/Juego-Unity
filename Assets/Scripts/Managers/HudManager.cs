@@ -40,7 +40,7 @@ public class HudManager : MonoBehaviour
     // Boton para quitar el menu de pausa
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Escape) && permitirEscape)
+        if (Input.GetKey(KeyCode.Escape) && permitirEscape || Input.GetButtonDown("Fire1"))
         {
             Time.timeScale = 0;
             menuPausa.SetActive(true);

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1672678368075247472}
   - component: {fileID: 1689013469605752856}
-  - component: {fileID: 805195886832608462}
   - component: {fileID: -2874851687959980588}
   m_Layer: 0
   m_Name: CheckpoinClip
@@ -129,19 +128,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &805195886832608462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 659084595867841915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab491b852c4a4884b8e4d427125d0c03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipCheck: {fileID: 1689013469605752856}
 --- !u!61 &-2874851687959980588
 BoxCollider2D:
   m_ObjectHideFlags: 0
